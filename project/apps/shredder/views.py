@@ -9,9 +9,7 @@ from project.apps.shredder.utils import get_random_item
 
 def pair_api(request):
 
-    # pair = random.choice(Pair.objects.all())
     pair = get_random_item(Pair)
-    print pair
     images = []
     for image in [pair.piece1, pair.piece2]:
         d = {}
