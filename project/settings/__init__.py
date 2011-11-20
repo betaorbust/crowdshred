@@ -10,7 +10,7 @@ ADMINS = (('Your admin name', 'admin@example.com'),)
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3', 
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(PROJECT_ROOT, 'crowdshred_development.db'),
     }
 }
@@ -40,7 +40,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.staticfiles',
-    'initial_data', # load django-admin commands, initial fixtures, ..
 )
 
 # The language code for this installation
@@ -53,7 +52,7 @@ MANAGERS = ADMINS
 MEDIA_ROOT = os.path.join(PROJECT_ROOT, '..', 'uploads')
 
 # URL that handles the media served from MEDIA_ROOT (must end in a slash)
-MEDIA_URL = '/uploads/' 
+MEDIA_URL = '/uploads/'
 
 # A tuple of middleware classes to use
 MIDDLEWARE_CLASSES = (
@@ -76,7 +75,7 @@ SECRET_KEY = 'c24dc506a9f892b54475b1a0e99f158b874e6c7e4d24344994'
 # The ID of the current site in the django_site database table
 SITE_ID = 1
 
-# Absolute path to the directory where collectstatic will collect static files 
+# Absolute path to the directory where collectstatic will collect static files
 STATIC_ROOT = ''
 
 # Additional locations the staticfiles app will traverse
@@ -86,7 +85,7 @@ STATICFILES_DIRS = (os.path.join(PROJECT_ROOT, 'static'),)
 STATIC_URL = '/static/'
 
 # URL prefix for CSS, JavaScript and images used by the Django admin.
-# Use a trailing slash, and to have this be different from MEDIA_URL 
+# Use a trailing slash, and to have this be different from MEDIA_URL
 # For integration with staticfiles, this should be  STATIC_URL + 'admin/'.
 ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
@@ -113,7 +112,7 @@ USE_ETAGS = False
 # Display numbers using a thousand separator
 USE_THOUSAND_SEPARATOR = True
 
-# Enable Django's internationalization system 
+# Enable Django's internationalization system
 USE_I18N = True
 
 # Display numbers and dates using the format of the current locale

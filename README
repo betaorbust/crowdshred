@@ -1,0 +1,10 @@
+
+Install Instructions:
+
+    $ cd crowdshred
+    $ virtualenv env
+    $ ln -s env/bin/activate
+    $ source activate
+    $ pip install -r deploy/requirements/base.txt
+    $ cd project/
+    $ ./manage.py runserver 0.0.0.0:8000
