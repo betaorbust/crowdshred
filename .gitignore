@@ -1,4 +1,5 @@
 activate
 env/
+*.db
 *.swp
 *.pyc
