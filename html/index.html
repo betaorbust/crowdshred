@@ -1,0 +1,218 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="./css/style.css" type="text/css" />
+<link rel="stylesheet" href="./css/ui-lightness/jquery-ui-1.8.16.custom.css">
+
+<script type="text/javascript" src="./js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./js/jqueryRotate.js"></script>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Variables
+    var jsonRequestParams = {
+        imageRequest: 2
+    };
+    var jsonLocation = "./request.html";
+    
+    startLoc = [];
+    endLoc = [];
+    pieces = {};
+	consoleDebugging = true;
+    
+    // Load up a board
+    // Remove board content
+    $('#board').empty();
+    // Ask the server for a new set of pieces
+    $.getJSON(jsonLocation,jsonRequestParams,
+        function(data){ 	
+            pieces = {};
+            
+            $.each(data.images, function(i, image){
+                var pname = "piece"+i;
+                pieces[pname] = {
+                    id:image.id,
+                    jsid:pname,
+                    src:image.src,
+                    locx:0,
+                    locy:0,
+                    rot:0,
+                    width:0,
+                    height:0
+                };
+
+                var img = $("<img/>").attr({"src":image.src, "class":"imagepiece","id":pname})
+                    .load(function(){
+                        if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) {
+                             alert('broken image!');
+                         } else {
+                            // append to the dom
+                            $("#board").append(img);
+                            
+							//draggable time!
+                            $('#'+pname).draggable({ 
+								containment: "parent",
+								start: function(event, ui){
+									myid = ui.helper.context.id;
+									var pos = $('#'+myid).offset()
+									startLoc=[pos.left,pos.top];
+									if(consoleDebugging){console.log(myid+' started dragging at '+startLoc);}
+								},
+								stop: function(event, ui){
+									myid = ui.helper.context.id;
+									var pos = $('#'+myid).offset();
+									endLoc=[pos.left,pos.top];
+									
+									// update the actual position.
+									pieces[myid].locx = pieces[myid].locx+endLoc[0]-startLoc[0];
+									pieces[myid].locy = pieces[myid].locy+endLoc[1]-startLoc[1];
+									if(consoleDebugging){
+										console.log(myid+' stopped dragging at '+endLoc);
+										console.log('for a total change of x:'+(endLoc[0]-startLoc[0])+', y:'+(endLoc[1]-startLoc[1]));
+										console.log('The new location for '+myid+' is x:'+pieces[myid].locx+' y:'+pieces[myid].locy);
+									}
+								}
+							});
+							
+                            // get the INSANE location data etc. Browser rotation dimension incompatibiliy, thy name is hatred. 
+                            pieces[pname].width=$('#'+pname).width();
+                            pieces[pname].height=$('#'+pname).height();
+                            var pos = $('#'+pname).offset();
+                            pieces[pname].locx=pos.left+0.5*pieces[pname].width;
+                            pieces[pname].locy=pos.top+0.5*pieces[pname].height;
+							if(consoleDebugging){
+								console.log('Starting position for '+pname+' is x: '+pieces[pname].locx+', y:'+pieces[pname].locy);
+                            }		
+                        } 
+                });
+            });
+			if(consoleDebugging){    
+				console.log(pieces);
+			}
+        });
+    
+    $('#noMatch').click(function() {
+		alert('no match reported!');
+    });
+    $('#perfectMatch').click(function(){
+        delx = pieces['piece1'].locx-pieces['piece0'].locx;
+		dely = pieces['piece1'].locy-pieces['piece0'].locy;
+		
+		alert(
+			'Centroid offest of pc1 from pc0: ['+ delx +', '+ dely +']\n'+
+			'Rotation of piece0: '+pieces['piece0'].rot+'\n'+
+			'Rotation of piece1: '+pieces['piece1'].rot
+		);		
+    });
+
+    $('#possibleMatch').click(function(){
+        alert('Height: '+$('#piece0').height()+' \nWidth: '+$('#piece0').width());
+        if(consoleDebugging){
+			console.log($('#piece0').height());
+			console.log($('#piece0').width());
+		}
+    });
+  });
+  
+$(function() {
+    $( "#slider0" ).slider({
+			value:0,
+			min: 0,
+			max: 360,
+			step: 1,
+			slide: function( event, ui ) {
+                $('#piece0').rotate(ui.value);
+                pieces.piece0.rot = ui.value;
+                               
+				//draggable time! Yup, again. Because rotating kills it in IE and ctrl+c ctrl+v makes it so.
+				$('#piece0').draggable({ 
+					containment: "parent",
+					start: function(event, ui){
+						myid = ui.helper.context.id;
+						var pos = $('#'+myid).offset()
+						startLoc=[pos.left,pos.top];
+						if(consoleDebugging){console.log(myid+' started dragging at '+startLoc);}
+					},
+					stop: function(event, ui){
+						myid = ui.helper.context.id;
+						var pos = $('#'+myid).offset();
+						endLoc=[pos.left,pos.top];
+						
+						// update the actual position.
+						pieces[myid].locx = pieces[myid].locx+endLoc[0]-startLoc[0];
+						pieces[myid].locy = pieces[myid].locy+endLoc[1]-startLoc[1];
+						if(consoleDebugging){
+							console.log(myid+' stopped dragging at '+endLoc);
+							console.log('for a total change of x:'+(endLoc[0]-startLoc[0])+', y:'+(endLoc[1]-startLoc[1]));
+							console.log('The new location for '+myid+' is x:'+pieces[myid].locx+' y:'+pieces[myid].locy);
+						}
+					}
+				});
+				
+			}
+		});
+    $( "#slider1" ).slider({
+        value:0,
+        min: 0,
+        max: 360,
+        step: 1,
+        slide: function( event, ui ) {
+                console.log(ui.value);
+                $('#piece1').rotate(ui.value);
+                pieces.piece1.rot = ui.value;
+                
+				//draggable time! Yup, again. Because rotating kills it in IE and ctrl+c ctrl+v makes it so.
+				$('#piece1').draggable({ 
+					containment: "parent",
+					start: function(event, ui){
+						myid = ui.helper.context.id;
+						var pos = $('#'+myid).offset()
+						startLoc=[pos.left,pos.top];
+						if(consoleDebugging){console.log(myid+' started dragging at '+startLoc);}
+					},
+					stop: function(event, ui){
+						myid = ui.helper.context.id;
+						var pos = $('#'+myid).offset();
+						endLoc=[pos.left,pos.top];
+						
+						// update the actual position.
+						pieces[myid].locx = pieces[myid].locx+endLoc[0]-startLoc[0];
+						pieces[myid].locy = pieces[myid].locy+endLoc[1]-startLoc[1];
+						if(consoleDebugging){
+							console.log(myid+' stopped dragging at '+endLoc);
+							console.log('for a total change of x:'+(endLoc[0]-startLoc[0])+', y:'+(endLoc[1]-startLoc[1]));
+							console.log('The new location for '+myid+' is x:'+pieces[myid].locx+' y:'+pieces[myid].locy);
+						}
+					}
+				});
+			}
+    });
+});  
+  
+</script>
+</head>
+<body>
+<div id="board">
+    <img src="./images/test.png">
+</div>
+
+
+<div class="sliderContainer">
+<div id="slider0"></div>
+</div>
+<div class="sliderContainer">
+<div id="slider1"></div>
+</div>
+
+<div id="buttonContainer">
+<input type="button" value="These don't match at all!" id="noMatch"></input>
+<input type="button" value="A possible match!" id="possibleMatch"></input>
+<input type="button" value="A perfect match!" id="perfectMatch"></input>
+</div>
+
+</body>
+</html>
+
