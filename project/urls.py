@@ -9,7 +9,7 @@ urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
     # Homepage
     url(r'^$', TemplateView.as_view(template_name='index.html'), name='index'),
-    url(r'^request/', TemplateView.as_view(template_name='request.html'), name='request'),
+    (r'^shredder/', include('project.apps.shredder.urls')),
 )
 
 # Static URLs

@@ -4,7 +4,7 @@ from project.apps.shredder.models import Document, Piece, Pair, Vote
 
 class DocumentAdmin(admin.ModelAdmin):
     list_display = ('name', 'slug')
-    prepopulated_fields = {"slug": ("title",)}
+    prepopulated_fields = {"slug": ("name",)}
 
 admin.site.register(Document, DocumentAdmin)
 
