@@ -1,0 +1,8 @@
+# NOTE: YOU MUST PEG EVERY REQUIREMENT TO A SPECIFIC VERSION
+#--- Django
+django == 1.3
+simplejson == 2.1.6  # for json api's
+#django-extensions
+#django-debug-toolbar
+docutils == 0.7     # for django admindocs
+pygments == 1.4     # for syntax color in docutils
