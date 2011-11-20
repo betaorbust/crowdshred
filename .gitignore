@@ -1,3 +1,4 @@
+activate
 env/
 *.swp
 *.pyc

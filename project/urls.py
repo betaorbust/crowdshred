@@ -8,7 +8,8 @@ urlpatterns = patterns('',
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
     (r'^admin/', include(admin.site.urls)),
     # Homepage
-    url(r'^$', TemplateView.as_view(template_name='homepage.html'), name='homepage'),
+    url(r'^$', TemplateView.as_view(template_name='index.html'), name='index'),
+    (r'^shredder/', include('project.apps.shredder.urls')),
 )
 
 # Static URLs
