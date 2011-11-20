@@ -1,12 +1,12 @@
 <html>
 <head>
 
-<link rel="stylesheet" href="./css/style.css" type="text/css" />
-<link rel="stylesheet" href="./css/ui-lightness/jquery-ui-1.8.16.custom.css">
+<link rel="stylesheet" href="{{STATIC_URL}}css/style.css" type="text/css" />
+<link rel="stylesheet" href="{{STATIC_URL}}css/ui-lightness/jquery-ui-1.8.16.custom.css">
 
-<script type="text/javascript" src="./js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/jquery-1.7.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-<script type="text/javascript" src="./js/jqueryRotate.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/jqueryRotate.js"></script>
 
 
 
@@ -16,7 +16,7 @@
     var jsonRequestParams = {
         imageRequest: 2
     };
-    var jsonLocation = "./request.html";
+    var jsonLocation = "{% url request %}";
     
     startLoc = [];
     endLoc = [];
@@ -196,7 +196,7 @@ $(function() {
 </head>
 <body>
 <div id="board">
-    <img src="./images/test.png">
+    <img src="{{STATIC_URL}}images/test.png">
 </div>
 
 
