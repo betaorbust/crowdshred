@@ -94,5 +94,1215 @@
             "doc": 1,
             "hash_id": "who_11"
         }
+    },
+    {
+        "pk": 1,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 1,
+            "piece2": 2,
+            "points": 0
+        }
+    },
+    {
+        "pk": 2,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 1,
+            "piece2": 3,
+            "points": 0
+        }
+    },
+    {
+        "pk": 3,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 1,
+            "piece2": 4,
+            "points": 0
+        }
+    },
+    {
+        "pk": 4,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 1,
+            "piece2": 5,
+            "points": 0
+        }
+    },
+    {
+        "pk": 5,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 1,
+            "piece2": 6,
+            "points": 0
+        }
+    },
+    {
+        "pk": 6,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 1,
+            "piece2": 7,
+            "points": 0
+        }
+    },
+    {
+        "pk": 7,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 1,
+            "piece2": 8,
+            "points": 0
+        }
+    },
+    {
+        "pk": 8,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 1,
+            "piece2": 9,
+            "points": 0
+        }
+    },
+    {
+        "pk": 9,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 1,
+            "piece2": 10,
+            "points": 0
+        }
+    },
+    {
+        "pk": 10,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 1,
+            "piece2": 11,
+            "points": 0
+        }
+    },
+    {
+        "pk": 11,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 2,
+            "piece2": 1,
+            "points": 0
+        }
+    },
+    {
+        "pk": 12,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 2,
+            "piece2": 3,
+            "points": 0
+        }
+    },
+    {
+        "pk": 13,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 2,
+            "piece2": 4,
+            "points": 0
+        }
+    },
+    {
+        "pk": 14,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 2,
+            "piece2": 5,
+            "points": 0
+        }
+    },
+    {
+        "pk": 15,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 2,
+            "piece2": 6,
+            "points": 0
+        }
+    },
+    {
+        "pk": 16,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 2,
+            "piece2": 7,
+            "points": 0
+        }
+    },
+    {
+        "pk": 17,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 2,
+            "piece2": 8,
+            "points": 0
+        }
+    },
+    {
+        "pk": 18,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 2,
+            "piece2": 9,
+            "points": 0
+        }
+    },
+    {
+        "pk": 19,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 2,
+            "piece2": 10,
+            "points": 0
+        }
+    },
+    {
+        "pk": 20,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 2,
+            "piece2": 11,
+            "points": 0
+        }
+    },
+    {
+        "pk": 21,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 3,
+            "piece2": 1,
+            "points": 0
+        }
+    },
+    {
+        "pk": 22,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 3,
+            "piece2": 2,
+            "points": 0
+        }
+    },
+    {
+        "pk": 23,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 3,
+            "piece2": 4,
+            "points": 0
+        }
+    },
+    {
+        "pk": 24,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 3,
+            "piece2": 5,
+            "points": 0
+        }
+    },
+    {
+        "pk": 25,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 3,
+            "piece2": 6,
+            "points": 0
+        }
+    },
+    {
+        "pk": 26,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 3,
+            "piece2": 7,
+            "points": 0
+        }
+    },
+    {
+        "pk": 27,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 3,
+            "piece2": 8,
+            "points": 0
+        }
+    },
+    {
+        "pk": 28,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 3,
+            "piece2": 9,
+            "points": 0
+        }
+    },
+    {
+        "pk": 29,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 3,
+            "piece2": 10,
+            "points": 0
+        }
+    },
+    {
+        "pk": 30,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 3,
+            "piece2": 11,
+            "points": 0
+        }
+    },
+    {
+        "pk": 31,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 4,
+            "piece2": 1,
+            "points": 0
+        }
+    },
+    {
+        "pk": 32,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 4,
+            "piece2": 2,
+            "points": 0
+        }
+    },
+    {
+        "pk": 33,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 4,
+            "piece2": 3,
+            "points": 0
+        }
+    },
+    {
+        "pk": 34,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 4,
+            "piece2": 5,
+            "points": 0
+        }
+    },
+    {
+        "pk": 35,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 4,
+            "piece2": 6,
+            "points": 0
+        }
+    },
+    {
+        "pk": 36,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 4,
+            "piece2": 7,
+            "points": 0
+        }
+    },
+    {
+        "pk": 37,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 4,
+            "piece2": 8,
+            "points": 0
+        }
+    },
+    {
+        "pk": 38,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 4,
+            "piece2": 9,
+            "points": 0
+        }
+    },
+    {
+        "pk": 39,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 4,
+            "piece2": 10,
+            "points": 0
+        }
+    },
+    {
+        "pk": 40,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 4,
+            "piece2": 11,
+            "points": 0
+        }
+    },
+    {
+        "pk": 41,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 5,
+            "piece2": 1,
+            "points": 0
+        }
+    },
+    {
+        "pk": 42,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 5,
+            "piece2": 2,
+            "points": 0
+        }
+    },
+    {
+        "pk": 43,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 5,
+            "piece2": 3,
+            "points": 0
+        }
+    },
+    {
+        "pk": 44,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 5,
+            "piece2": 4,
+            "points": 0
+        }
+    },
+    {
+        "pk": 45,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 5,
+            "piece2": 6,
+            "points": 0
+        }
+    },
+    {
+        "pk": 46,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 5,
+            "piece2": 7,
+            "points": 0
+        }
+    },
+    {
+        "pk": 47,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 5,
+            "piece2": 8,
+            "points": 0
+        }
+    },
+    {
+        "pk": 48,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 5,
+            "piece2": 9,
+            "points": 0
+        }
+    },
+    {
+        "pk": 49,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 5,
+            "piece2": 10,
+            "points": 0
+        }
+    },
+    {
+        "pk": 50,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 5,
+            "piece2": 11,
+            "points": 0
+        }
+    },
+    {
+        "pk": 51,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 6,
+            "piece2": 1,
+            "points": 0
+        }
+    },
+    {
+        "pk": 52,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 6,
+            "piece2": 2,
+            "points": 0
+        }
+    },
+    {
+        "pk": 53,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 6,
+            "piece2": 3,
+            "points": 0
+        }
+    },
+    {
+        "pk": 54,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 6,
+            "piece2": 4,
+            "points": 0
+        }
+    },
+    {
+        "pk": 55,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 6,
+            "piece2": 5,
+            "points": 0
+        }
+    },
+    {
+        "pk": 56,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 6,
+            "piece2": 7,
+            "points": 0
+        }
+    },
+    {
+        "pk": 57,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 6,
+            "piece2": 8,
+            "points": 0
+        }
+    },
+    {
+        "pk": 58,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 6,
+            "piece2": 9,
+            "points": 0
+        }
+    },
+    {
+        "pk": 59,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 6,
+            "piece2": 10,
+            "points": 0
+        }
+    },
+    {
+        "pk": 60,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 6,
+            "piece2": 11,
+            "points": 0
+        }
+    },
+    {
+        "pk": 61,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 7,
+            "piece2": 1,
+            "points": 0
+        }
+    },
+    {
+        "pk": 62,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 7,
+            "piece2": 2,
+            "points": 0
+        }
+    },
+    {
+        "pk": 63,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 7,
+            "piece2": 3,
+            "points": 0
+        }
+    },
+    {
+        "pk": 64,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 7,
+            "piece2": 4,
+            "points": 0
+        }
+    },
+    {
+        "pk": 65,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 7,
+            "piece2": 5,
+            "points": 0
+        }
+    },
+    {
+        "pk": 66,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 7,
+            "piece2": 6,
+            "points": 0
+        }
+    },
+    {
+        "pk": 67,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 7,
+            "piece2": 8,
+            "points": 0
+        }
+    },
+    {
+        "pk": 68,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 7,
+            "piece2": 9,
+            "points": 0
+        }
+    },
+    {
+        "pk": 69,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 7,
+            "piece2": 10,
+            "points": 0
+        }
+    },
+    {
+        "pk": 70,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 7,
+            "piece2": 11,
+            "points": 0
+        }
+    },
+    {
+        "pk": 71,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 8,
+            "piece2": 1,
+            "points": 0
+        }
+    },
+    {
+        "pk": 72,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 8,
+            "piece2": 2,
+            "points": 0
+        }
+    },
+    {
+        "pk": 73,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 8,
+            "piece2": 3,
+            "points": 0
+        }
+    },
+    {
+        "pk": 74,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 8,
+            "piece2": 4,
+            "points": 0
+        }
+    },
+    {
+        "pk": 75,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 8,
+            "piece2": 5,
+            "points": 0
+        }
+    },
+    {
+        "pk": 76,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 8,
+            "piece2": 6,
+            "points": 0
+        }
+    },
+    {
+        "pk": 77,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 8,
+            "piece2": 7,
+            "points": 0
+        }
+    },
+    {
+        "pk": 78,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 8,
+            "piece2": 9,
+            "points": 0
+        }
+    },
+    {
+        "pk": 79,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 8,
+            "piece2": 10,
+            "points": 0
+        }
+    },
+    {
+        "pk": 80,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 8,
+            "piece2": 11,
+            "points": 0
+        }
+    },
+    {
+        "pk": 81,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 9,
+            "piece2": 1,
+            "points": 0
+        }
+    },
+    {
+        "pk": 82,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 9,
+            "piece2": 2,
+            "points": 0
+        }
+    },
+    {
+        "pk": 83,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 9,
+            "piece2": 3,
+            "points": 0
+        }
+    },
+    {
+        "pk": 84,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 9,
+            "piece2": 4,
+            "points": 0
+        }
+    },
+    {
+        "pk": 85,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 9,
+            "piece2": 5,
+            "points": 0
+        }
+    },
+    {
+        "pk": 86,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 9,
+            "piece2": 6,
+            "points": 0
+        }
+    },
+    {
+        "pk": 87,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 9,
+            "piece2": 7,
+            "points": 0
+        }
+    },
+    {
+        "pk": 88,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 9,
+            "piece2": 8,
+            "points": 0
+        }
+    },
+    {
+        "pk": 89,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 9,
+            "piece2": 10,
+            "points": 0
+        }
+    },
+    {
+        "pk": 90,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 9,
+            "piece2": 11,
+            "points": 0
+        }
+    },
+    {
+        "pk": 91,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 10,
+            "piece2": 1,
+            "points": 0
+        }
+    },
+    {
+        "pk": 92,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 10,
+            "piece2": 2,
+            "points": 0
+        }
+    },
+    {
+        "pk": 93,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 10,
+            "piece2": 3,
+            "points": 0
+        }
+    },
+    {
+        "pk": 94,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 10,
+            "piece2": 4,
+            "points": 0
+        }
+    },
+    {
+        "pk": 95,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 10,
+            "piece2": 5,
+            "points": 0
+        }
+    },
+    {
+        "pk": 96,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 10,
+            "piece2": 6,
+            "points": 0
+        }
+    },
+    {
+        "pk": 97,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 10,
+            "piece2": 7,
+            "points": 0
+        }
+    },
+    {
+        "pk": 98,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 10,
+            "piece2": 8,
+            "points": 0
+        }
+    },
+    {
+        "pk": 99,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 10,
+            "piece2": 9,
+            "points": 0
+        }
+    },
+    {
+        "pk": 100,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 10,
+            "piece2": 11,
+            "points": 0
+        }
+    },
+    {
+        "pk": 101,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 11,
+            "piece2": 1,
+            "points": 0
+        }
+    },
+    {
+        "pk": 102,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 11,
+            "piece2": 2,
+            "points": 0
+        }
+    },
+    {
+        "pk": 103,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 11,
+            "piece2": 3,
+            "points": 0
+        }
+    },
+    {
+        "pk": 104,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 11,
+            "piece2": 4,
+            "points": 0
+        }
+    },
+    {
+        "pk": 105,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 11,
+            "piece2": 5,
+            "points": 0
+        }
+    },
+    {
+        "pk": 106,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 11,
+            "piece2": 6,
+            "points": 0
+        }
+    },
+    {
+        "pk": 107,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 11,
+            "piece2": 7,
+            "points": 0
+        }
+    },
+    {
+        "pk": 108,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 11,
+            "piece2": 8,
+            "points": 0
+        }
+    },
+    {
+        "pk": 109,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 11,
+            "piece2": 9,
+            "points": 0
+        }
+    },
+    {
+        "pk": 110,
+        "model": "shredder.pair",
+        "fields": {
+            "votes_required": 3,
+            "votes_made": 0,
+            "piece1": 11,
+            "piece2": 10,
+            "points": 0
+        }
     }
 ]
