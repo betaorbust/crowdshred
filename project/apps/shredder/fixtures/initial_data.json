@@ -99,10 +99,11 @@
         "pk": 1,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 1,
             "piece2": 2,
+            "votes_required": 3,
+            "hash_id": "a285a010-da75-4e88-93b5-6d2e43038cdc",
             "points": 0
         }
     },
@@ -110,10 +111,11 @@
         "pk": 2,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 1,
             "piece2": 3,
+            "votes_required": 3,
+            "hash_id": "def1513c-c342-4b9b-a016-590bb578be7b",
             "points": 0
         }
     },
@@ -121,10 +123,11 @@
         "pk": 3,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 1,
             "piece2": 4,
+            "votes_required": 3,
+            "hash_id": "e29a0d84-753f-42ab-bb32-11037011c8f1",
             "points": 0
         }
     },
@@ -132,10 +135,11 @@
         "pk": 4,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 1,
             "piece2": 5,
+            "votes_required": 3,
+            "hash_id": "e3d265ba-c792-49fe-88c2-a7ab16eb286c",
             "points": 0
         }
     },
@@ -143,10 +147,11 @@
         "pk": 5,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 1,
             "piece2": 6,
+            "votes_required": 3,
+            "hash_id": "4ad30691-69df-4c88-af9b-0f45ec9758e6",
             "points": 0
         }
     },
@@ -154,10 +159,11 @@
         "pk": 6,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 1,
             "piece2": 7,
+            "votes_required": 3,
+            "hash_id": "aae98a93-01ee-4341-83b2-54ee162b0a24",
             "points": 0
         }
     },
@@ -165,10 +171,11 @@
         "pk": 7,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 1,
             "piece2": 8,
+            "votes_required": 3,
+            "hash_id": "2ae5b0e5-a05d-4fa6-ae43-86781300453e",
             "points": 0
         }
     },
@@ -176,10 +183,11 @@
         "pk": 8,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 1,
             "piece2": 9,
+            "votes_required": 3,
+            "hash_id": "ff0af97a-57ba-4d59-9228-4cef22f64250",
             "points": 0
         }
     },
@@ -187,10 +195,11 @@
         "pk": 9,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 1,
             "piece2": 10,
+            "votes_required": 3,
+            "hash_id": "55e67b9e-85b7-426f-9b30-3e35d1473f3d",
             "points": 0
         }
     },
@@ -198,10 +207,11 @@
         "pk": 10,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 1,
             "piece2": 11,
+            "votes_required": 3,
+            "hash_id": "5ee621be-c6e3-4884-a850-0f8831cd4ea8",
             "points": 0
         }
     },
@@ -209,10 +219,11 @@
         "pk": 11,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 2,
             "piece2": 1,
+            "votes_required": 3,
+            "hash_id": "5df9e31f-f47f-4519-82f7-5b633474d74d",
             "points": 0
         }
     },
@@ -220,10 +231,11 @@
         "pk": 12,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 2,
             "piece2": 3,
+            "votes_required": 3,
+            "hash_id": "14c3e0a8-fb77-48fb-b767-30e3bf8d3bca",
             "points": 0
         }
     },
@@ -231,10 +243,11 @@
         "pk": 13,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 2,
             "piece2": 4,
+            "votes_required": 3,
+            "hash_id": "78ed5896-c7cb-4419-95d2-a8b897f76ed6",
             "points": 0
         }
     },
@@ -242,10 +255,11 @@
         "pk": 14,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 2,
             "piece2": 5,
+            "votes_required": 3,
+            "hash_id": "efca9e71-f415-4f95-86b0-ad6b4dc632c9",
             "points": 0
         }
     },
@@ -253,10 +267,11 @@
         "pk": 15,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 2,
             "piece2": 6,
+            "votes_required": 3,
+            "hash_id": "908f0671-baa7-4504-a380-14a4f5a0cab9",
             "points": 0
         }
     },
@@ -264,10 +279,11 @@
         "pk": 16,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 2,
             "piece2": 7,
+            "votes_required": 3,
+            "hash_id": "5166d0cc-ed4b-40fe-a501-36626fbee805",
             "points": 0
         }
     },
@@ -275,10 +291,11 @@
         "pk": 17,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 2,
             "piece2": 8,
+            "votes_required": 3,
+            "hash_id": "e0691726-66de-4b45-983d-9886ee76ba16",
             "points": 0
         }
     },
@@ -286,10 +303,11 @@
         "pk": 18,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 2,
             "piece2": 9,
+            "votes_required": 3,
+            "hash_id": "edbbfca8-7169-4fd3-9f40-5107ea115d04",
             "points": 0
         }
     },
@@ -297,10 +315,11 @@
         "pk": 19,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 2,
             "piece2": 10,
+            "votes_required": 3,
+            "hash_id": "dd8848c8-8240-451c-b540-339ec324fa82",
             "points": 0
         }
     },
@@ -308,10 +327,11 @@
         "pk": 20,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 2,
             "piece2": 11,
+            "votes_required": 3,
+            "hash_id": "d0efa67d-0e51-470e-aed0-6d02e73843a6",
             "points": 0
         }
     },
@@ -319,10 +339,11 @@
         "pk": 21,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 3,
             "piece2": 1,
+            "votes_required": 3,
+            "hash_id": "51ea5a52-2835-4276-ada5-7a3583c04fb5",
             "points": 0
         }
     },
@@ -330,10 +351,11 @@
         "pk": 22,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 3,
             "piece2": 2,
+            "votes_required": 3,
+            "hash_id": "628348a2-a47b-45bc-8d4e-3401774f958e",
             "points": 0
         }
     },
@@ -341,10 +363,11 @@
         "pk": 23,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 3,
             "piece2": 4,
+            "votes_required": 3,
+            "hash_id": "2cce1bbe-37a9-40c2-9bd0-fcbbdbb8dbea",
             "points": 0
         }
     },
@@ -352,10 +375,11 @@
         "pk": 24,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 3,
             "piece2": 5,
+            "votes_required": 3,
+            "hash_id": "415e8fc3-bfa7-4587-bfc2-fe68bb57ae0a",
             "points": 0
         }
     },
@@ -363,10 +387,11 @@
         "pk": 25,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 3,
             "piece2": 6,
+            "votes_required": 3,
+            "hash_id": "7e2c4345-7d47-4808-bdf6-a3f41cc077f9",
             "points": 0
         }
     },
@@ -374,10 +399,11 @@
         "pk": 26,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 3,
             "piece2": 7,
+            "votes_required": 3,
+            "hash_id": "04f7604e-afa4-42c2-8660-7c1dc6a65020",
             "points": 0
         }
     },
@@ -385,10 +411,11 @@
         "pk": 27,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 3,
             "piece2": 8,
+            "votes_required": 3,
+            "hash_id": "1001ce12-9ffd-40a4-8d39-7333dcf7f402",
             "points": 0
         }
     },
@@ -396,10 +423,11 @@
         "pk": 28,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 3,
             "piece2": 9,
+            "votes_required": 3,
+            "hash_id": "705e81fc-480d-4724-a69f-883fb8a38e41",
             "points": 0
         }
     },
@@ -407,10 +435,11 @@
         "pk": 29,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 3,
             "piece2": 10,
+            "votes_required": 3,
+            "hash_id": "0955c2f8-9ef6-4475-b796-d99dd82125eb",
             "points": 0
         }
     },
@@ -418,10 +447,11 @@
         "pk": 30,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 3,
             "piece2": 11,
+            "votes_required": 3,
+            "hash_id": "4efb160e-429d-4edd-8648-4201a69fdc90",
             "points": 0
         }
     },
@@ -429,10 +459,11 @@
         "pk": 31,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 4,
             "piece2": 1,
+            "votes_required": 3,
+            "hash_id": "c4403673-5e24-4d0b-b575-5869296edca9",
             "points": 0
         }
     },
@@ -440,10 +471,11 @@
         "pk": 32,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 4,
             "piece2": 2,
+            "votes_required": 3,
+            "hash_id": "f154782d-d20f-4e3f-88e8-773a55cc8c15",
             "points": 0
         }
     },
@@ -451,10 +483,11 @@
         "pk": 33,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 4,
             "piece2": 3,
+            "votes_required": 3,
+            "hash_id": "e5763941-cebc-40b8-98fd-a65ce924bb33",
             "points": 0
         }
     },
@@ -462,10 +495,11 @@
         "pk": 34,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 4,
             "piece2": 5,
+            "votes_required": 3,
+            "hash_id": "3afe7168-c803-4e45-a995-a42aba936d8d",
             "points": 0
         }
     },
@@ -473,10 +507,11 @@
         "pk": 35,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 4,
             "piece2": 6,
+            "votes_required": 3,
+            "hash_id": "f437de2a-eb1a-454e-89e7-f23567197dba",
             "points": 0
         }
     },
@@ -484,10 +519,11 @@
         "pk": 36,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 4,
             "piece2": 7,
+            "votes_required": 3,
+            "hash_id": "3e157848-c264-403d-b339-21285a11cc6c",
             "points": 0
         }
     },
@@ -495,10 +531,11 @@
         "pk": 37,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 4,
             "piece2": 8,
+            "votes_required": 3,
+            "hash_id": "73e6ea3e-6789-4f2d-87e2-e279e462eaa7",
             "points": 0
         }
     },
@@ -506,10 +543,11 @@
         "pk": 38,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 4,
             "piece2": 9,
+            "votes_required": 3,
+            "hash_id": "0468fb72-4d59-4e29-8ac1-21ad498f3394",
             "points": 0
         }
     },
@@ -517,10 +555,11 @@
         "pk": 39,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 4,
             "piece2": 10,
+            "votes_required": 3,
+            "hash_id": "cf2d85b3-0b43-478d-949d-5a075ccf1a3b",
             "points": 0
         }
     },
@@ -528,10 +567,11 @@
         "pk": 40,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 4,
             "piece2": 11,
+            "votes_required": 3,
+            "hash_id": "6ae35f76-d402-45ee-9853-070deafb9460",
             "points": 0
         }
     },
@@ -539,10 +579,11 @@
         "pk": 41,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 5,
             "piece2": 1,
+            "votes_required": 3,
+            "hash_id": "5f63c1cc-b6ca-4791-bb80-ea2e29c5576a",
             "points": 0
         }
     },
@@ -550,10 +591,11 @@
         "pk": 42,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 5,
             "piece2": 2,
+            "votes_required": 3,
+            "hash_id": "cdd2bed6-bf7c-4d79-99cc-167782396c33",
             "points": 0
         }
     },
@@ -561,10 +603,11 @@
         "pk": 43,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 5,
             "piece2": 3,
+            "votes_required": 3,
+            "hash_id": "6bf29914-405f-4d13-89ed-73bb1cbc1faf",
             "points": 0
         }
     },
@@ -572,10 +615,11 @@
         "pk": 44,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 5,
             "piece2": 4,
+            "votes_required": 3,
+            "hash_id": "f814acc5-27c0-4df5-9e19-1852205e4f5c",
             "points": 0
         }
     },
@@ -583,10 +627,11 @@
         "pk": 45,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 5,
             "piece2": 6,
+            "votes_required": 3,
+            "hash_id": "63e5c2ec-6a90-4b8e-b28d-b5df0e61b4d4",
             "points": 0
         }
     },
@@ -594,10 +639,11 @@
         "pk": 46,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 5,
             "piece2": 7,
+            "votes_required": 3,
+            "hash_id": "22fea47d-5b20-4a40-a8b4-fa706b5c922f",
             "points": 0
         }
     },
@@ -605,10 +651,11 @@
         "pk": 47,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 5,
             "piece2": 8,
+            "votes_required": 3,
+            "hash_id": "b324551e-bc4a-4bed-b5c6-4413708b5ebb",
             "points": 0
         }
     },
@@ -616,10 +663,11 @@
         "pk": 48,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 5,
             "piece2": 9,
+            "votes_required": 3,
+            "hash_id": "6eaee25f-fcc1-431b-b2e4-642a3eb81779",
             "points": 0
         }
     },
@@ -627,10 +675,11 @@
         "pk": 49,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 5,
             "piece2": 10,
+            "votes_required": 3,
+            "hash_id": "975ffbd2-d30e-42e6-80c9-a0500e525521",
             "points": 0
         }
     },
@@ -638,10 +687,11 @@
         "pk": 50,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 5,
             "piece2": 11,
+            "votes_required": 3,
+            "hash_id": "03f9ae81-480f-4440-b7b6-1fa86e6d836f",
             "points": 0
         }
     },
@@ -649,10 +699,11 @@
         "pk": 51,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 6,
             "piece2": 1,
+            "votes_required": 3,
+            "hash_id": "24f7ce2a-9e3e-4599-9bce-4ab13cea8b42",
             "points": 0
         }
     },
@@ -660,10 +711,11 @@
         "pk": 52,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 6,
             "piece2": 2,
+            "votes_required": 3,
+            "hash_id": "50072975-e491-4cd7-8391-abdad5f4a09a",
             "points": 0
         }
     },
@@ -671,10 +723,11 @@
         "pk": 53,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 6,
             "piece2": 3,
+            "votes_required": 3,
+            "hash_id": "1bc3df5e-b8cf-4f11-a828-ce873ff3a1cd",
             "points": 0
         }
     },
@@ -682,10 +735,11 @@
         "pk": 54,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 6,
             "piece2": 4,
+            "votes_required": 3,
+            "hash_id": "90b59c53-857c-46c0-bf5c-8d3cc62eb2d0",
             "points": 0
         }
     },
@@ -693,10 +747,11 @@
         "pk": 55,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 6,
             "piece2": 5,
+            "votes_required": 3,
+            "hash_id": "ccd53bcd-600f-4740-80a1-214497cce5b4",
             "points": 0
         }
     },
@@ -704,10 +759,11 @@
         "pk": 56,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 6,
             "piece2": 7,
+            "votes_required": 3,
+            "hash_id": "376a7254-7a8f-4103-8118-623d708f8d31",
             "points": 0
         }
     },
@@ -715,10 +771,11 @@
         "pk": 57,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 6,
             "piece2": 8,
+            "votes_required": 3,
+            "hash_id": "64de6f00-b146-4833-878d-5c0257515e6f",
             "points": 0
         }
     },
@@ -726,10 +783,11 @@
         "pk": 58,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 6,
             "piece2": 9,
+            "votes_required": 3,
+            "hash_id": "42de20d4-1607-49b0-abfa-77d2a3ec4916",
             "points": 0
         }
     },
@@ -737,10 +795,11 @@
         "pk": 59,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 6,
             "piece2": 10,
+            "votes_required": 3,
+            "hash_id": "527ab7ae-2eff-4e6c-ac45-dde4436eb072",
             "points": 0
         }
     },
@@ -748,10 +807,11 @@
         "pk": 60,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 6,
             "piece2": 11,
+            "votes_required": 3,
+            "hash_id": "7638eefc-e341-4124-920c-d2912d635097",
             "points": 0
         }
     },
@@ -759,10 +819,11 @@
         "pk": 61,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 7,
             "piece2": 1,
+            "votes_required": 3,
+            "hash_id": "c2c5d3ce-6cf7-4b0e-9da1-62a65dce1552",
             "points": 0
         }
     },
@@ -770,10 +831,11 @@
         "pk": 62,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 7,
             "piece2": 2,
+            "votes_required": 3,
+            "hash_id": "63a7b69b-d0c5-4cbc-a98e-1ee49ee4012a",
             "points": 0
         }
     },
@@ -781,10 +843,11 @@
         "pk": 63,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 7,
             "piece2": 3,
+            "votes_required": 3,
+            "hash_id": "076439ca-38b5-43ae-bdb5-2549601c5c16",
             "points": 0
         }
     },
@@ -792,10 +855,11 @@
         "pk": 64,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 7,
             "piece2": 4,
+            "votes_required": 3,
+            "hash_id": "cd4128eb-0d26-4322-80cf-24923e02715f",
             "points": 0
         }
     },
@@ -803,10 +867,11 @@
         "pk": 65,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 7,
             "piece2": 5,
+            "votes_required": 3,
+            "hash_id": "909a2d8f-6786-4149-8df5-c43231f44af1",
             "points": 0
         }
     },
@@ -814,10 +879,11 @@
         "pk": 66,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 7,
             "piece2": 6,
+            "votes_required": 3,
+            "hash_id": "b8f11beb-080a-46c9-a90c-355b2216e61d",
             "points": 0
         }
     },
@@ -825,10 +891,11 @@
         "pk": 67,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 7,
             "piece2": 8,
+            "votes_required": 3,
+            "hash_id": "01cb349b-db59-4a3f-9232-0443024ad8b1",
             "points": 0
         }
     },
@@ -836,10 +903,11 @@
         "pk": 68,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 7,
             "piece2": 9,
+            "votes_required": 3,
+            "hash_id": "edf81ada-e760-4717-aed9-7c73e1b65af4",
             "points": 0
         }
     },
@@ -847,10 +915,11 @@
         "pk": 69,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 7,
             "piece2": 10,
+            "votes_required": 3,
+            "hash_id": "c5de9cfc-03c9-4344-ac7e-52def7a0f290",
             "points": 0
         }
     },
@@ -858,10 +927,11 @@
         "pk": 70,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 7,
             "piece2": 11,
+            "votes_required": 3,
+            "hash_id": "0d473f7f-da81-46f6-a9d0-9f6b9e6fb620",
             "points": 0
         }
     },
@@ -869,10 +939,11 @@
         "pk": 71,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 8,
             "piece2": 1,
+            "votes_required": 3,
+            "hash_id": "3de30988-49a8-469b-94f2-95f9cb1f952a",
             "points": 0
         }
     },
@@ -880,10 +951,11 @@
         "pk": 72,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 8,
             "piece2": 2,
+            "votes_required": 3,
+            "hash_id": "23d56f9f-1354-4cdc-8ea2-af93c2f920d4",
             "points": 0
         }
     },
@@ -891,10 +963,11 @@
         "pk": 73,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 8,
             "piece2": 3,
+            "votes_required": 3,
+            "hash_id": "a99d3f2d-316d-442d-97ea-88c164b4413a",
             "points": 0
         }
     },
@@ -902,10 +975,11 @@
         "pk": 74,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 8,
             "piece2": 4,
+            "votes_required": 3,
+            "hash_id": "9a914d28-fa1b-4343-bd10-500c919a9ea2",
             "points": 0
         }
     },
@@ -913,10 +987,11 @@
         "pk": 75,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 8,
             "piece2": 5,
+            "votes_required": 3,
+            "hash_id": "fe61d6e9-a521-4c41-804b-e9936013e778",
             "points": 0
         }
     },
@@ -924,10 +999,11 @@
         "pk": 76,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 8,
             "piece2": 6,
+            "votes_required": 3,
+            "hash_id": "03595ca8-d5e2-491e-9a50-bc14c1e97730",
             "points": 0
         }
     },
@@ -935,10 +1011,11 @@
         "pk": 77,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 8,
             "piece2": 7,
+            "votes_required": 3,
+            "hash_id": "f9207db3-0cce-4f35-a24d-a4d084f0ab68",
             "points": 0
         }
     },
@@ -946,10 +1023,11 @@
         "pk": 78,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 8,
             "piece2": 9,
+            "votes_required": 3,
+            "hash_id": "ec4c43e2-7291-4b66-949c-369e389c3a7e",
             "points": 0
         }
     },
@@ -957,10 +1035,11 @@
         "pk": 79,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 8,
             "piece2": 10,
+            "votes_required": 3,
+            "hash_id": "16bfb54d-fd91-4859-97ef-6798ef22b35e",
             "points": 0
         }
     },
@@ -968,10 +1047,11 @@
         "pk": 80,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 8,
             "piece2": 11,
+            "votes_required": 3,
+            "hash_id": "7c9cd414-5268-4541-b24b-55f6cc5f387e",
             "points": 0
         }
     },
@@ -979,10 +1059,11 @@
         "pk": 81,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 9,
             "piece2": 1,
+            "votes_required": 3,
+            "hash_id": "aed1d57e-e070-4a47-9c0c-37d0d99a8e16",
             "points": 0
         }
     },
@@ -990,10 +1071,11 @@
         "pk": 82,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 9,
             "piece2": 2,
+            "votes_required": 3,
+            "hash_id": "4022e4c4-47a4-4979-bc8e-633cc64a799d",
             "points": 0
         }
     },
@@ -1001,10 +1083,11 @@
         "pk": 83,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 9,
             "piece2": 3,
+            "votes_required": 3,
+            "hash_id": "dd52d623-dffc-4ccf-a0c3-4fc81898a286",
             "points": 0
         }
     },
@@ -1012,10 +1095,11 @@
         "pk": 84,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 9,
             "piece2": 4,
+            "votes_required": 3,
+            "hash_id": "952fbd54-89c6-4ffe-b5f5-d2855f150a78",
             "points": 0
         }
     },
@@ -1023,10 +1107,11 @@
         "pk": 85,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 9,
             "piece2": 5,
+            "votes_required": 3,
+            "hash_id": "192734b1-a7a7-4a53-b66a-4ceee406a35d",
             "points": 0
         }
     },
@@ -1034,10 +1119,11 @@
         "pk": 86,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 9,
             "piece2": 6,
+            "votes_required": 3,
+            "hash_id": "f341eddd-fda1-4b70-800d-cd2e6c146d5f",
             "points": 0
         }
     },
@@ -1045,10 +1131,11 @@
         "pk": 87,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 9,
             "piece2": 7,
+            "votes_required": 3,
+            "hash_id": "15cbc472-d278-45fc-ba28-b79f97696ef9",
             "points": 0
         }
     },
@@ -1056,10 +1143,11 @@
         "pk": 88,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 9,
             "piece2": 8,
+            "votes_required": 3,
+            "hash_id": "a84c0a4b-f405-47a3-aebf-b906c851abde",
             "points": 0
         }
     },
@@ -1067,10 +1155,11 @@
         "pk": 89,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 9,
             "piece2": 10,
+            "votes_required": 3,
+            "hash_id": "5625fa30-5154-4f8f-9679-209b0d1116fe",
             "points": 0
         }
     },
@@ -1078,10 +1167,11 @@
         "pk": 90,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 9,
             "piece2": 11,
+            "votes_required": 3,
+            "hash_id": "b9fa66d7-36ec-4512-ac9b-56646aeb0373",
             "points": 0
         }
     },
@@ -1089,10 +1179,11 @@
         "pk": 91,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 10,
             "piece2": 1,
+            "votes_required": 3,
+            "hash_id": "41050e9d-16fd-4fc4-9242-4804706d92b2",
             "points": 0
         }
     },
@@ -1100,10 +1191,11 @@
         "pk": 92,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 10,
             "piece2": 2,
+            "votes_required": 3,
+            "hash_id": "3985dd39-93f7-42fd-a938-98f8f8701ee9",
             "points": 0
         }
     },
@@ -1111,10 +1203,11 @@
         "pk": 93,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 10,
             "piece2": 3,
+            "votes_required": 3,
+            "hash_id": "f0880c21-ad3a-41dd-b76c-2e27c8b180b3",
             "points": 0
         }
     },
@@ -1122,10 +1215,11 @@
         "pk": 94,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 10,
             "piece2": 4,
+            "votes_required": 3,
+            "hash_id": "ea9fe33e-23d8-4296-9183-062a4e3549a7",
             "points": 0
         }
     },
@@ -1133,10 +1227,11 @@
         "pk": 95,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 10,
             "piece2": 5,
+            "votes_required": 3,
+            "hash_id": "38535540-31d6-4f8a-a36d-de5f5d54d28a",
             "points": 0
         }
     },
@@ -1144,10 +1239,11 @@
         "pk": 96,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 10,
             "piece2": 6,
+            "votes_required": 3,
+            "hash_id": "ef9fe5b3-6988-482d-a53b-82acbc8ae26b",
             "points": 0
         }
     },
@@ -1155,10 +1251,11 @@
         "pk": 97,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 10,
             "piece2": 7,
+            "votes_required": 3,
+            "hash_id": "4cb9f977-c6e3-4b34-8538-f898fada1d0d",
             "points": 0
         }
     },
@@ -1166,10 +1263,11 @@
         "pk": 98,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 10,
             "piece2": 8,
+            "votes_required": 3,
+            "hash_id": "76a41776-9230-4ca4-9387-eb8418c86de8",
             "points": 0
         }
     },
@@ -1177,10 +1275,11 @@
         "pk": 99,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 10,
             "piece2": 9,
+            "votes_required": 3,
+            "hash_id": "b2199464-9765-4577-9c59-37c41170858f",
             "points": 0
         }
     },
@@ -1188,10 +1287,11 @@
         "pk": 100,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 10,
             "piece2": 11,
+            "votes_required": 3,
+            "hash_id": "0278d4a1-5be0-42d6-aeb1-a42d1c1e85af",
             "points": 0
         }
     },
@@ -1199,10 +1299,11 @@
         "pk": 101,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 11,
             "piece2": 1,
+            "votes_required": 3,
+            "hash_id": "51751862-a855-49fb-85f0-7f8ce9d5faf9",
             "points": 0
         }
     },
@@ -1210,10 +1311,11 @@
         "pk": 102,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 11,
             "piece2": 2,
+            "votes_required": 3,
+            "hash_id": "8755989f-72cd-4872-9f9b-3ab2f40c56d9",
             "points": 0
         }
     },
@@ -1221,10 +1323,11 @@
         "pk": 103,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 11,
             "piece2": 3,
+            "votes_required": 3,
+            "hash_id": "dc8ef9df-aa54-452a-b6a9-f678e29ea753",
             "points": 0
         }
     },
@@ -1232,10 +1335,11 @@
         "pk": 104,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 11,
             "piece2": 4,
+            "votes_required": 3,
+            "hash_id": "4badce19-c2cf-4f02-96dc-e5ef9a3d45f8",
             "points": 0
         }
     },
@@ -1243,10 +1347,11 @@
         "pk": 105,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 11,
             "piece2": 5,
+            "votes_required": 3,
+            "hash_id": "b3123982-1bb6-46c6-ba1c-a0a53cc0c3dc",
             "points": 0
         }
     },
@@ -1254,10 +1359,11 @@
         "pk": 106,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 11,
             "piece2": 6,
+            "votes_required": 3,
+            "hash_id": "95206aa8-1d70-40ea-bb8d-3ab96d22b049",
             "points": 0
         }
     },
@@ -1265,10 +1371,11 @@
         "pk": 107,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 11,
             "piece2": 7,
+            "votes_required": 3,
+            "hash_id": "3877fb51-39b0-4314-94c0-6d011613272b",
             "points": 0
         }
     },
@@ -1276,10 +1383,11 @@
         "pk": 108,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 11,
             "piece2": 8,
+            "votes_required": 3,
+            "hash_id": "3141cfc7-f301-4762-96ec-82f6a5a025a4",
             "points": 0
         }
     },
@@ -1287,10 +1395,11 @@
         "pk": 109,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 11,
             "piece2": 9,
+            "votes_required": 3,
+            "hash_id": "56707faf-997e-4abb-ac5e-eb8b70db4212",
             "points": 0
         }
     },
@@ -1298,11 +1407,92 @@
         "pk": 110,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
             "votes_made": 0,
             "piece1": 11,
             "piece2": 10,
+            "votes_required": 3,
+            "hash_id": "1f088082-3213-4897-a784-52bfd02b68d8",
             "points": 0
+        }
+    },
+    {
+        "pk": 1,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 110,
+            "state": 1,
+            "user": 1,
+            "created": "2011-11-20 16:53:06"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 110,
+            "state": 1,
+            "user": 1,
+            "created": "2011-11-20 16:53:22"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 110,
+            "state": 1,
+            "user": 1,
+            "created": "2011-11-20 16:53:31"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 110,
+            "state": 1,
+            "user": 1,
+            "created": "2011-11-20 16:53:49"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 110,
+            "state": 1,
+            "user": 1,
+            "created": "2011-11-20 16:54:50"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 110,
+            "state": 1,
+            "user": 1,
+            "created": "2011-11-20 16:55:31"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 110,
+            "state": 1,
+            "user": 1,
+            "created": "2011-11-20 16:55:45"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 110,
+            "state": 1,
+            "user": 1,
+            "created": "2011-11-20 16:58:31"
         }
     }
 ]
