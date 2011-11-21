@@ -1,3 +1,5 @@
+import itertools
+
 from django.contrib.auth.models import User
 from django.db import models
 
@@ -11,6 +13,13 @@ class Document(models.Model):
 
     def __unicode__(self):
         return self.name
+
+    def create_pairs(self):
+        pieces = Piece.objects.filter(doc=self)
+        pairs = itertools.combinations(pieces, 2)
+        for pair in pairs:
+            p = Pair(piece1=pair[0], piece2=pair[1])
+            p.save()
 
 
 class Piece(models.Model):
