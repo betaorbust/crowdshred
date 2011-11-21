@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.db import models
 
 
@@ -27,6 +28,7 @@ class Pair(models.Model):
     """
     A pair is a set of matched pieces
     """
+    hash_id = models.CharField(max_length=255)
     piece1 = models.ForeignKey(Piece, related_name="%(app_label)s_%(class)s_piece1")
     piece2 = models.ForeignKey(Piece, related_name="%(app_label)s_%(class)s_piece2")
     votes_made = models.PositiveIntegerField(default=0, help_text="Number of votes by users")
@@ -42,6 +44,12 @@ class Pair(models.Model):
         """
         return float(self.votes_made) / float(self.votes_required)
 
+    def save(self, *args, **kwargs):
+        if not self.hash_id:
+            import uuid
+            self.hash_id = uuid.uuid4()
+        super(Pair, self).save(*args, **kwargs)
+
 
 class Vote(models.Model):
     """
@@ -53,7 +61,7 @@ class Vote(models.Model):
         (3, 'No Match'),
         (4, 'Broken'),
     )
-    # user = models.ForeignKey(User)
+    user = models.ForeignKey(User)
     pair = models.ForeignKey(Pair)
     created = models.DateTimeField(auto_now_add=True)
     state = models.PositiveIntegerField(choices=STATE_CHOICES, help_text="User confidence in pair")
