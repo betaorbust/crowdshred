@@ -16,8 +16,10 @@ admin.site.register(Piece, PieceAdmin)
 
 
 class PairAdmin(admin.ModelAdmin):
-    list_display = ('piece1', 'piece2',
-                    'votes_made', 'votes_required', 'points')
+    list_display = ('piece1', 'piece2', 'votes_made',
+                    'votes_perfect', 'votes_maybe',
+                    'votes_no_match', 'votes_broken',
+                    'confidence', 'points')
 
 admin.site.register(Pair, PairAdmin)
 
