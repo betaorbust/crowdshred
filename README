@@ -7,4 +7,5 @@ Install Instructions:
     $ source activate
     $ pip install -r deploy/requirements/base.txt
     $ cd project/
+    # ./manage.py syncdb
     $ ./manage.py runserver 0.0.0.0:8000
