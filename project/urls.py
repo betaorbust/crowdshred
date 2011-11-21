@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     # Homepage
     url(r'^$', TemplateView.as_view(template_name='index.html'), name='index'),
     (r'^shredder/', include('project.apps.shredder.urls')),
+    (r'^auth/', include('social_auth.urls')),
 )
 
 # Static URLs

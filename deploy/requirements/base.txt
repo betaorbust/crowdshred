@@ -6,3 +6,6 @@ simplejson == 2.1.6  # for json api's
 #django-debug-toolbar
 docutils == 0.7     # for django admindocs
 pygments == 1.4     # for syntax color in docutils
+
+#--- Third Party
+-e git://github.com/chrisgilmerproj/red-social-auth.git#egg=social_auth

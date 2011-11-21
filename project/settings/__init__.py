@@ -119,3 +119,14 @@ USE_I18N = True
 
 # Display numbers and dates using the format of the current locale
 USE_L10N = True
+
+### OUR SETTINGS ... Kinda ###
+# DO NOT CHECK IN PERSONAL INFO
+
+SOCIAL_AUTH_URL_TIMEOUT = 15
+SOCIAL_AUTH_DEBUG = False
+
+FACEBOOK_API_KEY = 'yourapikey'
+FACEBOOK_API_SECRET = 'yourapisecret'
+TWITTER_API_KEY = 'yourapikey'
+TWITTER_API_SECRET = 'yourapisecret'

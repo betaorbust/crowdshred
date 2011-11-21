@@ -1,7 +1,8 @@
 import itertools
 
-from django.contrib.auth.models import User
 from django.db import models
+
+from social_auth.models import SocialUser
 
 
 class Document(models.Model):
@@ -78,7 +79,7 @@ class Vote(models.Model):
         (3, 'No Match'),
         (4, 'Broken'),
     )
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(SocialUser)
     pair = models.ForeignKey(Pair)
     created = models.DateTimeField(auto_now_add=True)
     state = models.PositiveIntegerField(choices=STATE_CHOICES, help_text="User confidence in pair")
