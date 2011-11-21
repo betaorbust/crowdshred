@@ -83,5 +83,13 @@ class Vote(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     state = models.PositiveIntegerField(choices=STATE_CHOICES, help_text="User confidence in pair")
 
+    delta_x_1 = models.FloatField(blank=True, null=True)
+    delta_y_1 = models.FloatField(blank=True, null=True)
+    rotation_1 = models.FloatField(blank=True, null=True)
+
+    delta_x_2 = models.FloatField(blank=True, null=True)
+    delta_y_2 = models.FloatField(blank=True, null=True)
+    rotation_2 = models.FloatField(blank=True, null=True)
+
     def __unicode__(self):
-        return '%s %s' % (self.piece1.hash_id, self.piece2.hash_id)
+        return '%s %s' % (self.user, self.pair)
