@@ -47,7 +47,7 @@ def pair_api(request):
     return json_response(content)
 
 
-def vote(request):
+def vote_api(request):
 
     if request.GET:
         state = request.GET['state']
@@ -70,6 +70,8 @@ def vote(request):
         elif state == '4':
             pair.votes_broken = F('votes_broken') + 1
         pair.save()
+
+        # @TODO: deltas and rotation
 
         return json_response_success('Accepted', code=202)
     return json_response_error('Forbidden', code=403)
