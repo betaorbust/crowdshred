@@ -99,1210 +99,1920 @@
         "pk": 1,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 1,
             "piece2": 2,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "c54e559b-052a-4c7d-8576-aec9b32171d9"
         }
     },
     {
         "pk": 2,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 1,
             "piece2": 3,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "d7fa90b5-7aa5-48cf-b32c-ece31aad868d"
         }
     },
     {
         "pk": 3,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 1,
             "piece2": 4,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "dfb6c646-9c8b-45b6-899d-f82025b5bacd"
         }
     },
     {
         "pk": 4,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 1,
             "piece2": 5,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "0b989bc2-f92a-4871-b2db-110bf942c00e"
         }
     },
     {
         "pk": 5,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 1,
             "piece2": 6,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "50f0b234-ffc4-45d1-9ef8-1a88ffa36c6c"
         }
     },
     {
         "pk": 6,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 1,
             "piece2": 7,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "00bcea51-a028-4ca8-9fb3-10587ba0e295"
         }
     },
     {
         "pk": 7,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 1,
             "piece2": 8,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "348371cc-36f8-430a-872a-3f6da452e5c9"
         }
     },
     {
         "pk": 8,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 1,
             "piece2": 9,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "96c76bb4-68f7-41e1-8958-e9d2017afd4a"
         }
     },
     {
         "pk": 9,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 1,
             "piece2": 10,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "e8edf35d-9661-4699-947b-021c2d4f0950"
         }
     },
     {
         "pk": 10,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 1,
             "piece2": 11,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "00743e5d-3455-449b-974a-f8e1ca34ac23"
         }
     },
     {
         "pk": 11,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 2,
             "piece2": 1,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "707bea7f-ccfe-47f4-b2ec-935af099cfdb"
         }
     },
     {
         "pk": 12,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 2,
             "piece2": 3,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "27091cde-f8cb-4273-9ed0-2c946d819447"
         }
     },
     {
         "pk": 13,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 2,
             "piece2": 4,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "f373691a-e6d0-4b28-85a3-e1432319d24a"
         }
     },
     {
         "pk": 14,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 2,
             "piece2": 5,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "8eeb37f4-f6d5-4e09-9e1f-6a211a2a73d7"
         }
     },
     {
         "pk": 15,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 2,
             "piece2": 6,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "1642d072-034b-43fb-9d1a-9f8735a979b5"
         }
     },
     {
         "pk": 16,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 2,
             "piece2": 7,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "a0f1e7c6-f0d1-4b81-966d-d9b9ca59cd30"
         }
     },
     {
         "pk": 17,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 2,
             "piece2": 8,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "d7efa9ff-ffcc-4000-a0df-5f5bfbe5ebcd"
         }
     },
     {
         "pk": 18,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 2,
             "piece2": 9,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "fa6a901a-4ead-4dc9-923c-594a0253c059"
         }
     },
     {
         "pk": 19,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 2,
             "piece2": 10,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "1a0295e1-590c-46f4-8639-bfc06a9d2f8e"
         }
     },
     {
         "pk": 20,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 2,
             "piece2": 11,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "4b0e1365-94e6-4424-839c-bf89f721aedc"
         }
     },
     {
         "pk": 21,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 3,
             "piece2": 1,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "be3aa62b-beb7-478e-83b9-5725dcbacfcb"
         }
     },
     {
         "pk": 22,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 3,
             "piece2": 2,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "756c7178-3c78-416d-8418-9b0bf30cfd6e"
         }
     },
     {
         "pk": 23,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 3,
             "piece2": 4,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "db0ec552-6b27-4e27-8f24-e2829bb77ef7"
         }
     },
     {
         "pk": 24,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 3,
             "piece2": 5,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "3b80db05-b6bf-493c-8cd6-83ad680c6f10"
         }
     },
     {
         "pk": 25,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 3,
             "piece2": 6,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "a1171a74-af42-402e-b17d-16eba1b16cd8"
         }
     },
     {
         "pk": 26,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 3,
             "piece2": 7,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "77c9efd2-2076-4d3d-86cb-7943c3c1efa5"
         }
     },
     {
         "pk": 27,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 3,
             "piece2": 8,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "b68b5ca4-f8fd-4ef7-8f5a-6e3cad9a0b6d"
         }
     },
     {
         "pk": 28,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 3,
             "piece2": 9,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "d7a0c33c-b684-4503-80da-b58d305bc615"
         }
     },
     {
         "pk": 29,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 3,
             "piece2": 10,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "b9f4f5b9-da17-4132-bc09-3d2e32e15d79"
         }
     },
     {
         "pk": 30,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 3,
             "piece2": 11,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "19a719be-296c-4df9-946c-cde1492bc325"
         }
     },
     {
         "pk": 31,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 4,
             "piece2": 1,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "026b4ca9-3dc0-4ff6-b489-42118ccd19dc"
         }
     },
     {
         "pk": 32,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 4,
             "piece2": 2,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "d8d09254-ec85-4373-a6d8-8861c8ecfa34"
         }
     },
     {
         "pk": 33,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 4,
             "piece2": 3,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "3850eaca-c7d1-49e5-9e30-2b78e9c89640"
         }
     },
     {
         "pk": 34,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 4,
             "piece2": 5,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "26ced82c-6569-4a87-9d6f-648c7b805582"
         }
     },
     {
         "pk": 35,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 4,
             "piece2": 6,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "2db2d823-f162-4d8f-b2e2-49308a8912b5"
         }
     },
     {
         "pk": 36,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 4,
             "piece2": 7,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "41c3a5a4-dec5-4570-b093-7ba1c10b3db5"
         }
     },
     {
         "pk": 37,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 4,
             "piece2": 8,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "cafa3ed7-964f-4ee0-9f57-84d2480f6c1a"
         }
     },
     {
         "pk": 38,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 4,
             "piece2": 9,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "db75838e-2383-404e-831b-4b607816729a"
         }
     },
     {
         "pk": 39,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 4,
             "piece2": 10,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "e762db15-be01-460a-bfe7-961f4b16b7c9"
         }
     },
     {
         "pk": 40,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 4,
             "piece2": 11,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "bb292b3e-e129-45d5-a04c-b54f2c41ebe8"
         }
     },
     {
         "pk": 41,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 5,
             "piece2": 1,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "0efded35-66d7-4275-bf59-bc617aa017cc"
         }
     },
     {
         "pk": 42,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 5,
             "piece2": 2,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "eb4c1f9a-d347-4cb0-8d0b-8bd324129635"
         }
     },
     {
         "pk": 43,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 5,
             "piece2": 3,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "860dd278-db4d-4f96-8022-28e9e8d0ca60"
         }
     },
     {
         "pk": 44,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 5,
             "piece2": 4,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "294ed349-0404-4927-889d-5d4684147ee2"
         }
     },
     {
         "pk": 45,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 5,
             "piece2": 6,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "52018de0-1f0d-499e-8b4c-14756e3359a6"
         }
     },
     {
         "pk": 46,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 5,
             "piece2": 7,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "eb70a5bc-b483-49fa-8b87-c9fffd1a4fca"
         }
     },
     {
         "pk": 47,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 5,
             "piece2": 8,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "e35526dc-208c-4ce0-aa88-b020d5664963"
         }
     },
     {
         "pk": 48,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 5,
             "piece2": 9,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "6050c536-3aa4-4727-83fd-1936aeafa3af"
         }
     },
     {
         "pk": 49,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 5,
             "piece2": 10,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "08a7497d-47e7-4af2-a3c1-d4e8f3a09201"
         }
     },
     {
         "pk": 50,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 5,
             "piece2": 11,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "2e8b63ef-9017-4e28-a366-7cf2f9a6fb5b"
         }
     },
     {
         "pk": 51,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 6,
             "piece2": 1,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "69210c57-b512-4752-a3b0-7b4eb80d8ea5"
         }
     },
     {
         "pk": 52,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 6,
             "piece2": 2,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "0acf592d-9d83-4246-9af4-02cd1cb81f94"
         }
     },
     {
         "pk": 53,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 6,
             "piece2": 3,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "7dc8c589-df24-4f95-a91d-f877d6c3207f"
         }
     },
     {
         "pk": 54,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 6,
             "piece2": 4,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "aee46250-35b2-4eef-ae37-57fc6676a629"
         }
     },
     {
         "pk": 55,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 6,
             "piece2": 5,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "322dded4-f7a8-486f-8761-1b58532a6563"
         }
     },
     {
         "pk": 56,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 6,
             "piece2": 7,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "974386a5-e5cb-4052-8418-a321cbd4b1b6"
         }
     },
     {
         "pk": 57,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 6,
             "piece2": 8,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "bc9c810a-16c8-4d89-a288-124a98d2a6f0"
         }
     },
     {
         "pk": 58,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 6,
             "piece2": 9,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "044fe9da-1d1f-4784-b3bf-54b128ae8366"
         }
     },
     {
         "pk": 59,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 6,
             "piece2": 10,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "3390b59b-9aa5-4df5-8120-f95e80cfd7d1"
         }
     },
     {
         "pk": 60,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 6,
             "piece2": 11,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "4f33af0a-ae33-4299-b700-29af47a9cebf"
         }
     },
     {
         "pk": 61,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 7,
             "piece2": 1,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "5757822c-1c4d-4261-962d-589aa97f387a"
         }
     },
     {
         "pk": 62,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 7,
             "piece2": 2,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "90da96a6-7259-478e-8d02-5c740b1d7b14"
         }
     },
     {
         "pk": 63,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 7,
             "piece2": 3,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "f922b84d-1c73-428e-87b4-50e1f21637e5"
         }
     },
     {
         "pk": 64,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 7,
             "piece2": 4,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "4a52d385-7bb4-4ca8-9692-c309cf57afff"
         }
     },
     {
         "pk": 65,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 7,
             "piece2": 5,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "1a6bf4ac-b76a-4884-ba5f-e3a8772df3a9"
         }
     },
     {
         "pk": 66,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 7,
             "piece2": 6,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "d081d43e-277b-408c-b36e-598f59d9abb6"
         }
     },
     {
         "pk": 67,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 7,
             "piece2": 8,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "2476cefb-480c-4f84-907b-0a325f0b015c"
         }
     },
     {
         "pk": 68,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 7,
             "piece2": 9,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "0b1eb1e9-fa7a-43af-afd4-7148f3146b68"
         }
     },
     {
         "pk": 69,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 7,
             "piece2": 10,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "bb1dde8c-7788-48f6-b03f-4811254fd7f0"
         }
     },
     {
         "pk": 70,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 7,
             "piece2": 11,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "8f616d27-2c1d-4e08-8b13-a14f76528ae1"
         }
     },
     {
         "pk": 71,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 8,
             "piece2": 1,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "a4f73df6-2742-499e-a340-2a3f37ba6667"
         }
     },
     {
         "pk": 72,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 8,
             "piece2": 2,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "e81447cf-0158-40a5-9498-8fd1adbb87c0"
         }
     },
     {
         "pk": 73,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 8,
             "piece2": 3,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "dedbd8a2-f3fd-4d70-bf45-847ecd8a32d0"
         }
     },
     {
         "pk": 74,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 8,
             "piece2": 4,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "f1a31f99-027b-4afa-9907-bbcda3546955"
         }
     },
     {
         "pk": 75,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 8,
             "piece2": 5,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "99b1e049-cb13-48d0-bf93-d0134220572f"
         }
     },
     {
         "pk": 76,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 8,
             "piece2": 6,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "36f6c12a-9a53-4a43-aacf-ff12977a4477"
         }
     },
     {
         "pk": 77,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 8,
             "piece2": 7,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "7b2412dd-546e-43a0-b72a-125fe86da6ab"
         }
     },
     {
         "pk": 78,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 8,
             "piece2": 9,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "db3f4fc9-7f6f-4a45-9221-7c77837c2d77"
         }
     },
     {
         "pk": 79,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 8,
             "piece2": 10,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "d55efaf1-14e0-449f-8a7e-8707cb489af6"
         }
     },
     {
         "pk": 80,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 8,
             "piece2": 11,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "097dd163-0a49-4b8b-a00c-c04639928406"
         }
     },
     {
         "pk": 81,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 9,
             "piece2": 1,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "28d201ab-3de9-45fa-998b-745faf832e2e"
         }
     },
     {
         "pk": 82,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 9,
             "piece2": 2,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "5643f785-5ebe-4e31-828b-d3c69677153f"
         }
     },
     {
         "pk": 83,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 9,
             "piece2": 3,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "67e5d520-54b9-43b8-aa9a-08df35e91ba4"
         }
     },
     {
         "pk": 84,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 9,
             "piece2": 4,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "57c060a2-9b9c-4209-a330-79fe6865637d"
         }
     },
     {
         "pk": 85,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 9,
             "piece2": 5,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "c09ef96b-c8f0-4564-a11f-2a783a5b3360"
         }
     },
     {
         "pk": 86,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 9,
             "piece2": 6,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "ff67f8ae-be7d-4a7c-bc21-cf751ac63c62"
         }
     },
     {
         "pk": 87,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 9,
             "piece2": 7,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "1f198dee-5857-45f0-ba03-c2b9655e425c"
         }
     },
     {
         "pk": 88,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 9,
             "piece2": 8,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "a8eb832a-6057-4ece-a393-6a23648892d7"
         }
     },
     {
         "pk": 89,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 9,
             "piece2": 10,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "3b83f6fc-03f0-4761-9735-4bcfef1dc72e"
         }
     },
     {
         "pk": 90,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 9,
             "piece2": 11,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "93ec55ce-5ab4-4778-abd2-0f63d60882b5"
         }
     },
     {
         "pk": 91,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 10,
             "piece2": 1,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "282edff3-a015-4ef2-8c76-52653b5d714c"
         }
     },
     {
         "pk": 92,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 10,
             "piece2": 2,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "0149e7ab-e6dd-4e9d-b5f5-901c513b8b93"
         }
     },
     {
         "pk": 93,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 10,
             "piece2": 3,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "676f1869-2514-4304-9099-d115a2d5cec9"
         }
     },
     {
         "pk": 94,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 10,
             "piece2": 4,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "16d100b7-7126-48b9-94b8-265128cedee4"
         }
     },
     {
         "pk": 95,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 10,
             "piece2": 5,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "8ea351b9-1557-49d4-bfe1-be391e03df1c"
         }
     },
     {
         "pk": 96,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 10,
             "piece2": 6,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "86c4dc1a-fa2b-4809-af65-9010b781ca95"
         }
     },
     {
         "pk": 97,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 10,
             "piece2": 7,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "5312c152-bcde-4281-ad84-f048ceaeca4d"
         }
     },
     {
         "pk": 98,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 10,
             "piece2": 8,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "cdda3c25-9f0a-453c-a06c-5866dc3ce2ed"
         }
     },
     {
         "pk": 99,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 10,
             "piece2": 9,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "8f664964-4692-4c03-9911-9436fe423c8a"
         }
     },
     {
         "pk": 100,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 10,
             "piece2": 11,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "2a07eb6c-34dd-444e-945f-6150666fd114"
         }
     },
     {
         "pk": 101,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 11,
             "piece2": 1,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "8f90a0b1-ddfc-45e6-adda-b43753483400"
         }
     },
     {
         "pk": 102,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 11,
             "piece2": 2,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "dbf96d68-a66e-4260-9ebb-2894c370a65f"
         }
     },
     {
         "pk": 103,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 11,
             "piece2": 3,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "f86e00c8-963e-4f1a-be33-e91c1a8cb672"
         }
     },
     {
         "pk": 104,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 11,
             "piece2": 4,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "bd7fa93a-3d40-4ab6-8e10-0128f65e3406"
         }
     },
     {
         "pk": 105,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 11,
             "piece2": 5,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "5ce1f269-3d1a-4542-a36b-032b455c7e05"
         }
     },
     {
         "pk": 106,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 11,
             "piece2": 6,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "7c2d1bd6-b6c1-4af8-8b82-26e38cb4c1cb"
         }
     },
     {
         "pk": 107,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 11,
             "piece2": 7,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "4a796c7b-44c9-415a-8c6a-9081715ff3b9"
         }
     },
     {
         "pk": 108,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 11,
             "piece2": 8,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "a6087622-0ff5-42cd-96ac-fea432b4a53e"
         }
     },
     {
         "pk": 109,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 11,
             "piece2": 9,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "dfb770a0-9dee-4de1-9957-9862a488e23b"
         }
     },
     {
         "pk": 110,
         "model": "shredder.pair",
         "fields": {
-            "votes_required": 3,
+            "confidence": 0.0,
+            "votes_perfect": 0,
             "votes_made": 0,
+            "points": 0,
             "piece1": 11,
             "piece2": 10,
-            "points": 0
+            "votes_broken": 0,
+            "votes_required": 3,
+            "votes_no_match": 0,
+            "votes_maybe": 0,
+            "hash_id": "2d406ed2-0316-49bd-9d5f-c2fd6847610f"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 2,
+            "state": 1,
+            "user": 1,
+            "created": "2011-11-20 17:36:05"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 2,
+            "state": 1,
+            "user": 1,
+            "created": "2011-11-20 17:36:52"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 2,
+            "state": 2,
+            "user": 1,
+            "created": "2011-11-20 17:37:05"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 2,
+            "state": 3,
+            "user": 1,
+            "created": "2011-11-20 17:37:16"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "shredder.vote",
+        "fields": {
+            "pair": 2,
+            "state": 4,
+            "user": 1,
+            "created": "2011-11-20 17:37:24"
         }
     }
 ]

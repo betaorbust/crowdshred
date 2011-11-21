@@ -40,20 +40,28 @@ class Pair(models.Model):
     hash_id = models.CharField(max_length=255)
     piece1 = models.ForeignKey(Piece, related_name="%(app_label)s_%(class)s_piece1")
     piece2 = models.ForeignKey(Piece, related_name="%(app_label)s_%(class)s_piece2")
+
     votes_made = models.PositiveIntegerField(default=0, help_text="Number of votes by users")
-    votes_required = models.PositiveIntegerField(default=3, help_text="Number of votes for confidence")
+    votes_required = models.PositiveIntegerField(default=0, help_text="Number of votes by users")
+    votes_perfect = models.PositiveIntegerField(default=0, help_text="Number of votes by users")
+    votes_maybe = models.PositiveIntegerField(default=0, help_text="Number of votes by users")
+    votes_no_match = models.PositiveIntegerField(default=0, help_text="Number of votes by users")
+    votes_broken = models.PositiveIntegerField(default=0, help_text="Number of votes by users")
+
+    confidence = models.FloatField(default=0.0, help_text="Confidence in pairing")
     points = models.PositiveIntegerField(default=0, help_text="Number of points this pairing is worth")
 
     def __unicode__(self):
         return '%s %s' % (self.piece1.hash_id, self.piece2.hash_id)
 
-    def confidence(self):
+    def get_confidence(self):
         """
         A simple way to determine percentage confidence in a pairing
         """
-        return float(self.votes_made) / float(self.votes_required)
+        return self.votes_perfect - 2 * self.votes_no_match
 
     def save(self, *args, **kwargs):
+        self.confidence = self.get_confidence()
         if not self.hash_id:
             import uuid
             self.hash_id = uuid.uuid4()
