@@ -7,116 +7,71 @@
 <script type="text/javascript" src="{{STATIC_URL}}js/jquery-1.7.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 <script type="text/javascript" src="{{STATIC_URL}}js/jqueryRotate.js"></script>
-
+<script type="text/javascript" src="{{STATIC_URL}}js/crowdshred.js"></script>
 
 
 <script type="text/javascript">
   $(document).ready(function() {
-    // Variables
-    var jsonRequestParams = {
+     // Add the stuff about browser detect. In the end this will be the white-list stuff
+    $('body').prepend('<p style="text-align:center;">You\'re using ' + BrowserDetect.browser + ' ' + BrowserDetect.version + ' on ' + BrowserDetect.OS + '!</p>');
+        
+    // Variables yup, I know they're global... that's just kind of how it's going to have to be for now.
+    jsonRequestParams = {
         imageRequest: 2
     };
-    var jsonLocation = "{% url pair_api %}";
-    
+    jsonLocation = "{% url pair_api %}";
+    jsonVoteLocation = "{% url vote_api %}";
+
     startLoc = [];
     endLoc = [];
     pieces = {};
 	consoleDebugging = true;
+	id_hash = '';
     
     // Load up a board
-    // Remove board content
-    $('#board').empty();
-    // Ask the server for a new set of pieces
-    $.getJSON(jsonLocation,jsonRequestParams,
-        function(data){ 	
-            pieces = {};
-            
-            $.each(data.images, function(i, image){
-                var pname = "piece"+i;
-                pieces[pname] = {
-                    id:image.id,
-                    jsid:pname,
-                    src:image.src,
-                    locx:0,
-                    locy:0,
-                    rot:0,
-                    width:0,
-                    height:0
-                };
-
-                var img = $("<img/>").attr({"src":image.src, "class":"imagepiece","id":pname})
-                    .load(function(){
-                        if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) {
-                             alert('broken image!');
-                         } else {
-                            // append to the dom
-                            $("#board").append(img);
-                            
-							//draggable time!
-                            $('#'+pname).draggable({ 
-								containment: "parent",
-								start: function(event, ui){
-									myid = ui.helper.context.id;
-									var pos = $('#'+myid).offset()
-									startLoc=[pos.left,pos.top];
-									if(consoleDebugging){console.log(myid+' started dragging at '+startLoc);}
-								},
-								stop: function(event, ui){
-									myid = ui.helper.context.id;
-									var pos = $('#'+myid).offset();
-									endLoc=[pos.left,pos.top];
-									
-									// update the actual position.
-									pieces[myid].locx = pieces[myid].locx+endLoc[0]-startLoc[0];
-									pieces[myid].locy = pieces[myid].locy+endLoc[1]-startLoc[1];
-									if(consoleDebugging){
-										console.log(myid+' stopped dragging at '+endLoc);
-										console.log('for a total change of x:'+(endLoc[0]-startLoc[0])+', y:'+(endLoc[1]-startLoc[1]));
-										console.log('The new location for '+myid+' is x:'+pieces[myid].locx+' y:'+pieces[myid].locy);
-									}
-								}
-							});
-							
-                            // get the INSANE location data etc. Browser rotation dimension incompatibiliy, thy name is hatred. 
-                            pieces[pname].width=$('#'+pname).width();
-                            pieces[pname].height=$('#'+pname).height();
-                            var pos = $('#'+pname).offset();
-                            pieces[pname].locx=pos.left+0.5*pieces[pname].width;
-                            pieces[pname].locy=pos.top+0.5*pieces[pname].height;
-							if(consoleDebugging){
-								console.log('Starting position for '+pname+' is x: '+pieces[pname].locx+', y:'+pieces[pname].locy);
-                            }		
-                        } 
-                });
-            });
-			if(consoleDebugging){    
-				console.log(pieces);
-			}
-        });
+    loadNewPieces(jsonLocation,jsonRequestParams);
     
-    $('#noMatch').click(function() {
-		alert('no match reported!');
-    });
-    $('#perfectMatch').click(function(){
-        delx = pieces['piece1'].locx-pieces['piece0'].locx;
+    // Add the voting ability for each of the buttons
+    $('.voteButton').click(function(){
+		// get the info from the pieces
+		delx = pieces['piece1'].locx-pieces['piece0'].locx;
 		dely = pieces['piece1'].locy-pieces['piece0'].locy;
+		r0 = pieces['piece0'].rot;
+		r1 = pieces['piece1'].rot;
 		
-		alert(
-			'Centroid offest of pc1 from pc0: ['+ delx +', '+ dely +']\n'+
-			'Rotation of piece0: '+pieces['piece0'].rot+'\n'+
-			'Rotation of piece1: '+pieces['piece1'].rot
-		);		
-    });
-
-    $('#possibleMatch').click(function(){
-        alert('Height: '+$('#piece0').height()+' \nWidth: '+$('#piece0').width());
-        if(consoleDebugging){
-			console.log($('#piece0').height());
-			console.log($('#piece0').width());
+		// get the id from the button 
+		var vote=$(this).attr('id');
+		if(consoleDebugging){console.log(vote);}
+		
+		// decide what numeric vote the button is sending
+		switch(vote){
+		    case 'perfectMatch':
+		        vote = 1;
+		        break;
+	        case 'possibleMatch':
+	            vote = 2;
+	            break;
+            case 'noMatch':
+                vote = 3;
+                break;
+            case 'broken':
+                vote = 4;
+                break;
+            default:
+                alert('WTF did you do??')			
 		}
+		
+		// vote
+        submitVote(id_hash, vote, delx, dely, r0, r1);
+        
+        // get a new board
+        loadNewPieces(jsonLocation,jsonRequestParams);
     });
+    
+   
   });
   
+// Add the slider functionality
 $(function() {
     $( "#slider0" ).slider({
 			value:0,
@@ -196,9 +151,7 @@ $(function() {
 </head>
 <body>
 <div id="board">
-    <img src="{{STATIC_URL}}images/test.png">
 </div>
-
 
 <div class="sliderContainer">
 <div id="slider0"></div>
@@ -208,9 +161,10 @@ $(function() {
 </div>
 
 <div id="buttonContainer">
-<input type="button" value="These don't match at all!" id="noMatch"></input>
-<input type="button" value="A possible match!" id="possibleMatch"></input>
-<input type="button" value="A perfect match!" id="perfectMatch"></input>
+<input class="voteButton" type="button" value="A perfect match" id="perfectMatch"></input>
+<input class="voteButton" type="button" value="A possible match" id="possibleMatch"></input>
+<input class="voteButton" type="button" value="These don't match at all" id="noMatch"></input>
+<input class="voteButton" type="button" value="Something is broken :('" id="broken"></input>
 </div>
 
 </body>
