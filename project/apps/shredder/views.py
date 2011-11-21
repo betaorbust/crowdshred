@@ -39,7 +39,11 @@ def pair_api(request):
         d['id'] = image.hash_id
         d['src'] = "%simages/%s.png" % (settings.STATIC_URL, image.hash_id)
         images.append(d)
-    return json_response({"images": images})
+    content = {
+            'images': images,
+            'pair': pair.hash_id,
+        }
+    return json_response(content)
 
 
 def vote(request):
