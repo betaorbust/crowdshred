@@ -1,10 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-      <title>{% block title %}{% endblock title %}</title>
-      <link rel="stylesheet" href="{{ STATIC_URL }}css/style.css">
-    </head>
-    <body>
-      {% block content %}{% endblock content %}
-    </body>
+<head>
+	{% block topHead %}{% endblock topHead %}
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<style type="text/css">
+		@import url(/static/css/templatestyles.css);		/*link to the main CSS file */
+    </style>
+    
+	<title>{% block title %}UnRend{% endblock title %}</title>
+	
+	<!-- Initialise jQuery Library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/static/js/template/flashobject.js"></script>
+	{% block bottomHead %}{% endblock bottomHead %}
+</head>
+<body>
+	<div id="top_full">
+		<div class="container_12">
+			<div class="social_top">
+        		<em>Follow us</em> on <a class="hsample_01" href="#">Twitter</a>,
+                <a class="hsample_01" href="#">Facebook</a> and <a class="hsample_01" href="#">Google+</a>
+        	</div><!--/ social_top-->
+    	</div><!--/ container_12-->
+ 	</div><!--/ top_full-->
+    <div id="header-top">
+        <div class="container_12">
+            <div class="logo">
+                <a href="/">
+                    <img src="" width="171" height="43" alt="">
+                    Un<span>Rend</span> logo
+                </a>
+            </div><!--/ logo-->
+                <div class="nav-menu">
+                    <ul class="sf-menu">
+                        <li class="current-menu-item"><a href="/">Home</a></li>
+                        <li><a href="/about/">About Our Project</a></li>
+                        <li><a href="/game/">Play The Game!</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div><!--/ nav-->
+      </div><!--/ container_12--> 
+    </div><!--/ header-->
+    
+    <!-- THIS IS THE HOME PAGE STUFF!-->
+    {% block structure %}{% endblock structure %}
+   
+  <div id="sidebar-footer">
+    <div id="fsb">
+        <!-- SIDEBAR FOOTER INFORMATION -->
+    </div><!--/ fsb-->
+  </div><!--/ sidebar-footer-->
+  <div id="footer_full">
+    <div id="footer">
+      <p class="copyright">Copyright &copy; 2011 &bull; Chris &amp; Jacques of Goat Rodeo Productions &bull; All rights reserved</p>
+      <p class="developed">Developed by: <a class="fsample_01" href="#">Chris</a> &amp; <a class="fsample_01" href="#">Jacques</a></p>
+      <div class="clear"></div>
+    </div>
+  </div><!--/ footer_full-->
+</div><!--/ full-content-->
+<script type="text/javascript" src="/static/js/template/general.js"></script>
+</body>
 </html>
