@@ -1,0 +1,170 @@
+{% extends "fullwidthpage.html" %}
+
+{% block topHead %}
+<link rel="stylesheet" href="{{STATIC_URL}}css/style.css" type="text/css" />
+<link rel="stylesheet" href="{{STATIC_URL}}css/ui-lightness/jquery-ui-1.8.16.custom.css">
+{% endblock topHead %}
+
+{% block bottomHead %}
+<script type="text/javascript" src="{{STATIC_URL}}js/jqueryRotate.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/crowdshred.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+     // Add the stuff about browser detect. In the end this will be the white-list stuff
+    //$('body').prepend('<p style="text-align:center;">You\'re using ' + BrowserDetect.browser + ' ' + BrowserDetect.version + ' on ' + BrowserDetect.OS + '!</p>');
+        
+    // Variables yup, I know they're global... that's just kind of how it's going to have to be for now.
+    jsonRequestParams = {
+        imageRequest: 2
+    };
+    jsonLocation = "{% url pair_api %}";
+    jsonVoteLocation = "{% url vote_api %}";
+
+    startLoc = [];
+    endLoc = [];
+    pieces = {};
+	consoleDebugging = true;
+	id_hash = '';
+    
+    // Load up a board
+    loadNewPieces(jsonLocation,jsonRequestParams);
+    
+    // Add the voting ability for each of the buttons
+    $('.voteButton').click(function(){
+		// get the info from the pieces
+		delx = pieces['piece1'].locx-pieces['piece0'].locx;
+		dely = pieces['piece1'].locy-pieces['piece0'].locy;
+		r0 = pieces['piece0'].rot;
+		r1 = pieces['piece1'].rot;
+		
+		// get the id from the button 
+		var vote=$(this).attr('id');
+		if(consoleDebugging){console.log(vote);}
+		
+		// decide what numeric vote the button is sending
+		switch(vote){
+		    case 'perfectMatch':
+		        vote = 1;
+		        break;
+	        case 'possibleMatch':
+	            vote = 2;
+	            break;
+            case 'noMatch':
+                vote = 3;
+                break;
+            case 'broken':
+                vote = 4;
+                break;
+            default:
+                alert('WTF did you do??')			
+		}
+		
+		// vote
+        submitVote(id_hash, vote, delx, dely, r0, r1);
+        
+        // get a new board
+        loadNewPieces(jsonLocation,jsonRequestParams);
+    });
+    
+   
+  });
+  
+// Add the slider functionality
+$(function() {
+    $( "#slider0" ).slider({
+			value:0,
+			min: 0,
+			max: 360,
+			step: 1,
+			slide: function( event, ui ) {
+                $('#piece0').rotate(ui.value);
+                pieces.piece0.rot = ui.value;
+                               
+				//draggable time! Yup, again. Because rotating kills it in IE and ctrl+c ctrl+v makes it so.
+				$('#piece0').draggable({ 
+					containment: "parent",
+					start: function(event, ui){
+						myid = ui.helper.context.id;
+						var pos = $('#'+myid).offset()
+						startLoc=[pos.left,pos.top];
+						if(consoleDebugging){console.log(myid+' started dragging at '+startLoc);}
+					},
+					stop: function(event, ui){
+						myid = ui.helper.context.id;
+						var pos = $('#'+myid).offset();
+						endLoc=[pos.left,pos.top];
+						
+						// update the actual position.
+						pieces[myid].locx = pieces[myid].locx+endLoc[0]-startLoc[0];
+						pieces[myid].locy = pieces[myid].locy+endLoc[1]-startLoc[1];
+						if(consoleDebugging){
+							console.log(myid+' stopped dragging at '+endLoc);
+							console.log('for a total change of x:'+(endLoc[0]-startLoc[0])+', y:'+(endLoc[1]-startLoc[1]));
+							console.log('The new location for '+myid+' is x:'+pieces[myid].locx+' y:'+pieces[myid].locy);
+						}
+					}
+				});
+				
+			}
+		});
+    $( "#slider1" ).slider({
+        value:0,
+        min: 0,
+        max: 360,
+        step: 1,
+        slide: function( event, ui ) {
+                //console.log(ui.value);
+                $('#piece1').rotate(ui.value);
+                pieces.piece1.rot = ui.value;
+                
+				//draggable time! Yup, again. Because rotating kills it in IE and ctrl+c ctrl+v makes it so.
+				$('#piece1').draggable({ 
+					containment: "parent",
+					start: function(event, ui){
+						myid = ui.helper.context.id;
+						var pos = $('#'+myid).offset()
+						startLoc=[pos.left,pos.top];
+						if(consoleDebugging){console.log(myid+' started dragging at '+startLoc);}
+					},
+					stop: function(event, ui){
+						myid = ui.helper.context.id;
+						var pos = $('#'+myid).offset();
+						endLoc=[pos.left,pos.top];
+						
+						// update the actual position.
+						pieces[myid].locx = pieces[myid].locx+endLoc[0]-startLoc[0];
+						pieces[myid].locy = pieces[myid].locy+endLoc[1]-startLoc[1];
+						if(consoleDebugging){
+							console.log(myid+' stopped dragging at '+endLoc);
+							console.log('for a total change of x:'+(endLoc[0]-startLoc[0])+', y:'+(endLoc[1]-startLoc[1]));
+							console.log('The new location for '+myid+' is x:'+pieces[myid].locx+' y:'+pieces[myid].locy);
+						}
+					}
+				});
+			}
+    });
+});  
+  
+</script>
+{% endblock bottomHead %}
+
+{% block content %}
+<body>
+<div id="board">
+</div>
+
+<div class="sliderContainer">
+<div id="slider0"></div>
+</div>
+<div class="sliderContainer">
+<div id="slider1"></div>
+</div>
+
+<div id="buttonContainer">
+<input class="voteButton" type="button" value="A perfect match" id="perfectMatch"></input>
+<input class="voteButton" type="button" value="A possible match" id="possibleMatch"></input>
+<input class="voteButton" type="button" value="These don't match at all" id="noMatch"></input>
+<input class="voteButton" type="button" value="Something is broken :('" id="broken"></input>
+</div>
+{% endblock content %}
+
