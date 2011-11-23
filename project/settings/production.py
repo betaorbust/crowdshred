@@ -5,9 +5,9 @@ from settings import *
 DEBUG = False
 DATABASES = {
     'default': {
-        'NAME': 'crowdshred_production',
+        'NAME': 'unrend_production',
         'ENGINE': 'django.db.backends.mysql',
-        'USER': 'crowdshred_production_user',
+        'USER': 'unrend_production_user',
         'PASSWORD': '[set password here]',
         'HOST': 'localhost'
     }
