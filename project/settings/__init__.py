@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     'shredder',
+    'social_auth',
 )
 
 # The language code for this installation
