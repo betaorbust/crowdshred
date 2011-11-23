@@ -2,6 +2,7 @@ import itertools
 
 from django.contrib.auth.models import User
 from django.db import models
+from django.db.models import F
 
 
 class Document(models.Model):
@@ -83,13 +84,23 @@ class Vote(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     state = models.PositiveIntegerField(choices=STATE_CHOICES, help_text="User confidence in pair")
 
-    delta_x_1 = models.FloatField(blank=True, null=True)
-    delta_y_1 = models.FloatField(blank=True, null=True)
-    rotation_1 = models.FloatField(blank=True, null=True)
-
-    delta_x_2 = models.FloatField(blank=True, null=True)
-    delta_y_2 = models.FloatField(blank=True, null=True)
-    rotation_2 = models.FloatField(blank=True, null=True)
+    dx = models.FloatField(blank=True, null=True)
+    dy = models.FloatField(blank=True, null=True)
+    rot0 = models.FloatField(blank=True, null=True)
+    rot1 = models.FloatField(blank=True, null=True)
 
     def __unicode__(self):
         return '%s %s' % (self.user, self.pair)
+
+    def save(self, *args, **kwargs):
+        super(Vote, self).save(*args, **kwargs)
+        self.pair.votes_made = F('votes_made') + 1
+        if self.state == 1:
+            self.pair.votes_perfect = F('votes_perfect') + 1
+        elif self.state == 2:
+            self.pair.votes_maybe = F('votes_maybe') + 1
+        elif self.state == 3:
+            self.pair.votes_no_match = F('votes_no_match') + 1
+        elif self.state == 4:
+            self.pair.votes_broken = F('votes_broken') + 1
+        self.pair.save()
