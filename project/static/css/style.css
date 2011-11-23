@@ -65,7 +65,7 @@ div.sliderContainer {
 }
 
 .txt_slide_left {
-	padding:60px 0 0 52px
+	padding:20px 0 0 52px
 } 
 
 ul.ordered-type1 li,
@@ -90,7 +90,6 @@ input.voteButton{
     padding:5px;
     margin: 5px;
     font-size:14px;
-
 	background:url(/static/images/template/bg_nav.png) repeat 1px 1px #fff;
 	border:1px solid #d7d7d7;
 	-moz-border-radius:5px;
@@ -106,4 +105,21 @@ input.voteButton:hover{
     background:url(/static/images/template/current.png) repeat;
 	border:1px solid #2f2f2f;
     text-decoration:none;
+}
+
+a.splashReadMore{
+    font-size:150%;
+    padding:5px;
+    background:url(/static/images/template/bg_nav.png) repeat 1px 1px #fff;
+	border:1px solid #d7d7d7;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #d7d7d7;
+	behavior: url(/static/js/template/PIE.htc);
+	text-align:center;
+	display:block;
+	width:150px;
+	margin-right:auto;
+	margin-left:auto;
 }

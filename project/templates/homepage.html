@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block bottomHead %}
+<script src="{{STATIC_URL}}js/jquery.anchor.js" type="text/javascript"></script>
+{% endblock %}
+
 {% block structure %}
  <div class="clear"></div>
     <!-- Begin Slider -->
@@ -15,7 +19,7 @@
                             <h4>Solve a problem, donate to charity, and win some cash in the process!</h4>
                             <p>DARPA's gone and shredded seven puzzles and they're willing to pay out if we put them back together! We plan to tackle this shredder challenge with a combination of computer vision, human awesomeness, and a little fun.</p>
                             <p>If we win this thing (and, let's face it, that's the plan) the drinks are metaphorically on us! We'll be giving $20,000 of it away to Child's Play and thousands of dollars to our top contributing matchers - that's you!</p>
-                             <!-- <a href="portfolio_4col.html" class="btn_gal"></a> -->
+                            <a href="#myAnchor" rel="" id="anchor1" class="anchorLink splashReadMore">Read More</a>
                         </div>
                         <div class="slide_pic_right"><img src="{{STATIC_URL}}images/childsplay_logo.jpg" width="320" height="360" alt="" /></div>
                       </li>
@@ -30,7 +34,8 @@
 <div class="full-content">
   <div class="container_11">
    <div class="content">
-        <div class="columns">
+        <div class="columns" id="columnsContainer1" >
+        <a name="myAnchor" id="myAnchor"></a>
             <div class="column justify">
                 <div class="count"><img src="/static/images/template/one.png"  width="25"  height="70" alt="1"></div>
                 <h3>Computer</h3>
