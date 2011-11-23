@@ -100,7 +100,7 @@ ul.sf-menu > li{
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	border:1px solid #d7d7d7;
-	behavior: url(js/PIE.htc);
+	behavior: url(static/template/js/PIE.htc);
 } 
 
 ul.sf-menu > li.sfHover {

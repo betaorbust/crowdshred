@@ -77,6 +77,7 @@ function loadNewPieces(){
 
 // submit a vote via AJAX
 function submitVote(hash, vote, delx, dely, r0, r1){
+    // oh look! I did this already! Go me!
     var voteParams = {
         hash_id:hash,
         state:vote,
