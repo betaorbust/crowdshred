@@ -1,3 +1,6 @@
+body{
+    font-size:14px;
+}
 p{
     font-size:14px;
     line-height:1.6;
@@ -64,3 +67,16 @@ div.sliderContainer {
 .txt_slide_left {
 	padding:60px 0 0 52px
 } 
+
+ul.ordered-type1 li,
+ul.ordered-type2 li {
+	line-height:2em;
+	list-style-type:square;
+    list-style-position:inside;
+}
+ol.ordered-type1 li,
+ol.ordered-type2 li {
+	line-height:2em;
+	list-style-type:decimal;
+    list-style-position:inside;
+}
