@@ -2,10 +2,10 @@ import simplejson as json
 
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
-from django.db.models import F
 from django.http import HttpResponse
 
-from project.apps.shredder.models import Pair, Vote
+from project.apps.shredder.forms import VoteForm
+from project.apps.shredder.models import Pair
 from project.apps.shredder.utils import get_random_item
 
 
@@ -50,28 +50,18 @@ def pair_api(request):
 def vote_api(request):
 
     if request.GET:
-        state = request.GET['state']
-        try:
-            pair = Pair.objects.get(hash_id=request.GET['hash_id'])
-        except ObjectDoesNotExist:
-            return json_response_error('Object does not exist', code=404)
-        vote = Vote(user=request.user,
-                    pair=pair,
-                    state=state)
-        vote.save()
+        form = VoteForm(request.GET)
+        if form.is_valid():
+            vote = form.save(commit=False)
+            try:
+                pair = Pair.objects.get(hash_id=request.GET['hash_id'])
+            except ObjectDoesNotExist:
+                return json_response_error('Object does not exist', code=404)
+            vote.user = request.user
+            vote.pair = pair
+            vote.save()
 
-        pair.votes_made = F('votes_made') + 1
-        if state == '1':
-            pair.votes_perfect = F('votes_perfect') + 1
-        elif state == '2':
-            pair.votes_maybe = F('votes_maybe') + 1
-        elif state == '3':
-            pair.votes_no_match = F('votes_no_match') + 1
-        elif state == '4':
-            pair.votes_broken = F('votes_broken') + 1
-        pair.save()
-
-        # @TODO: deltas and rotation
-
-        return json_response_success('Accepted', code=202)
+            return json_response_success('Accepted', code=202)
+        else:
+            return json_response_success('Invalid Form', code=403)
     return json_response_error('Forbidden', code=403)

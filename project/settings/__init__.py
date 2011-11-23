@@ -11,7 +11,7 @@ ADMINS = (('Your admin name', 'admin@example.com'),)
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_ROOT, 'crowdshred_development.db'),
+        'NAME': os.path.join(PROJECT_ROOT, 'unrend_development.db'),
     }
 }
 
@@ -22,7 +22,7 @@ DEBUG = True
 DEFAULT_FROM_EMAIL = 'webmaster@example.com'
 
 # Set the subject prefix for email messages sent to admins and managers
-EMAIL_SUBJECT_PREFIX = '[crowdshred] '
+EMAIL_SUBJECT_PREFIX = '[unrend] '
 
 # Maximum size (in bytes) before an upload gets streamed to the file system.
 FILE_UPLOAD_MAX_MEMORY_SIZE = 5242880

@@ -1,5 +1,70 @@
 {% extends "base.html" %}
 
-{% block content %}
-This page is a placemark for the homepage.
+{% block structure %}
+ <div class="clear"></div>
+    <!-- Begin Slider -->
+    <div id="slider" class="sample_01 pattern_01">
+		<div class="slider-top">
+      		<div class="slider-bottom">
+              <div class="anythingSlider">     	
+                  <ul id="slider3">
+                      <!--/ textSlide-->
+                      <li>
+                        <div class="txt_slide_left">
+                            <h2>Join <span class="fsample_01">us</span>!</h2>
+                            <h4>Solve a problem, donate to charity, and win some cash in the process!</h4>
+                            <p>DARPA's gone and shredded seven puzzles and they're willing to pay out if we put them back together! We plan to tackle this shredder challenge with a combination of computer vision, human awesomeness, and a little fun.</p>
+                            <p>If we win this thing (and, let's face it, that's the plan) the drinks are metaphorically on us! We'll be giving $20,000 of it away to Child's Play and thousands of dollars to our top contributing matchers - that's you!</p>
+                             <!-- <a href="portfolio_4col.html" class="btn_gal"></a> -->
+                        </div>
+                        <div class="slide_pic_right"><img src="{{STATIC_URL}}images/childsplay_logo.jpg" width="320" height="360" alt="" /></div>
+                      </li>
+                      
+                     
+                  </ul>
+                </div>  
+           </div><!--/slider-top-->
+         </div><!--/slider-bottom-->
+       </div><!--/ slider-->   
+	   <!-- End Slider -->
+<div class="full-content">
+  <div class="container_11">
+   <div class="content">
+        <div class="columns">
+            <div class="column justify">
+                <div class="count"><img src="/static/images/template/one.png"  width="25"  height="70" alt="1"></div>
+                <h3>Computer</h3>
+             	<p class="fsample_01">First off we have our "advanced" computer matching algorithms take a whack at the shredded pieces. This process matches up puzzle pieces that <span style="">might</span> be good matches. <br /><br />Think you can write a better algorithm and take the air quotes off of that "advanced" title? We'll give you <a href="#">up to $1,000</a> to improve our matching by 20%!</p>
+              	<a href="#" class="read">Read more</a>
+            </div><!--/column-->
+            <div class="column justify">
+              	<div class="count"><img src="/static/images/template/two.png" width="39"  height="70" alt="2"></div>
+                <h3>Human</h3>
+                <p class="fsample_01">Next up: our awesome matchers. That's you!<br /><br /> 
+Evaluate puzzle pieces to find a match. The more useful (turns out to be true when the puzzle is solved) information you give us on matching questions, the more points you get! <span style="font-weight:bold">Protip:</span> our top matchers get cash if we win. 
+<br /><br />Have friends? Make or join a team and compete with other teams for team cash prizes!</p>
+              	<a href="#" class="read">Read more</a> 
+            </div><!--/column-->
+            <div class="column justify">
+                <div class="count"><img src="/static/images/template/three.png" width="36"  height="75" alt="3"></div>
+                <h3>Assemble</h3>
+                <p class="fsample_01">Once there is enough data on a specific piece and its relationship to its neighbors we can begin assembling the puzzle. Sure, there will be a bit of manual drudgery in this stage, but we're so close! 
+Once assembled, we ship it off to DARPA with the answers to their questions and BAM! we're posting numbers for Team Unrend! Keep an eye on our Twitter account as well as this website for up-to-the-minute info on how we're doing.</p>
+            	<a href="#" class="read">Read more</a> 
+            </div><!--/column
+            <div class="column justify">
+               	 <div class="count"><img src="/static/images/template/four.png" width="41"  height="70" alt="4"></div>
+               	 <h3>How You Do</h3>
+                 <p class="fsample_01">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+             	 <a href="#" class="read">Read more</a> 
+            </div><!--/column-->
+            <div class="clear"></div>
+        </div><!--/column-->  
+   </div><!--/ content-->
+ </div><!--/ container_11-->
+{% endblock %}
+
+
+{% block sidebarFooter %}
+    
 {% endblock %}
