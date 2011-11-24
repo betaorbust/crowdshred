@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block bottomHead %}
+    <script src="{{STATIC_URL}}js/jquery.anchor.js" type="text/javascript"></script>
+{% endblock %}
+
+{% block structure %}
+   <div id="sidebar_right" class="middle">
+      <div class="container_11">
+			{% block content %}
+			    <h1>Frequently Asked Questions</h1>
+                <ul class="ordered-type1">
+                    <li><a href="#gameAnchor" rel="" class="anchorLink">How does this game work?</a></li>
+                    <li><a href="#pointsAnchor" rel="" class="anchorLink">How do the points work?</a></li>
+                    <li><a href="#otherAnchor" rel="" class="anchorLink">Other questions</a></li>
+                </ul>
+			    <div class="divider"></div>
+                <h3>How does this game work?<a name="gameAnchor" id="gameAnchor"></a></h3>
+                <p>Each round of play, two images will show up for evaluation. All you have to do is decide if they are side-by-side pieces, and if so place them next to each other in their proper orientation.</p>
+                <h4>Ok, now what?</h4>
+                <p>Click and drag either piece to move them around. To get a better fit you will frequently need to rotate the pieces; do this with the sliders at the bottom of the board.</p>
+                <p>When you're satisfied with the piece placement, it's on to decision time. Simply click one of the buttons at the bottom of the play board to vote for the two pieces. The vote types are as follows:</p>
+                <div class="columns2">
+                    <div class="column">
+                        <p class="text-center"><span class="voteButton">A perfect match</span></p>
+                        <div class="divider_thin_space"></div>
+                        <p>If you've moved and rotated the images to be matched up next to each other and they really do look like they belong as a pair for now until death or another shredder do them part, congrats! Click here to register your rare find!</p>
+                    </div>
+                    <div class="column">
+                        <p class="text-center"><span class="voteButton">A possible match</span></p>
+                        <div class="divider_thin_space"></div>
+                        <p>If you've moved and rotated the images to be matched up next to each other and they <span class="italic">kinda</span> look like they are partners, but you're not 100% certain, click here. This may come up a lot with, for instance, pieces that were mangled in the shred.</p>
+                    </div>
+                    <div class="column">
+                         <p class="text-center"><span class="voteButton">These don't match at all</span></p>
+                        <div class="divider_thin_space"></div>
+                         <p>Are the pieces completely not related? Look nothing like neighbors? Click here! Given our initial algorithms for matching, you may end up using this button... a lot.</p>
+                    </div>
+                    <div class="column">
+                        <p class="text-center"><span class="voteButton">Something's broken</span></p>
+                        <div class="divider_thin_space"></div>
+                        <p>Images broken? Click here to flag the image pair for review and to load a new set of images.</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="divider"></div>
+                <h3>How do points work?<a name="pointsAnchor" id="pointsAnchor"></a></h3>
+                <p>Points are calculated for each solved puzzle, or verified portion of a solved puzzle once we have enough reconstructed to verify your votes.</p>
+                <p>Let's make this next part very clear:<br />
+                <span class="bold">WHILE YOU CAN GET POINTS FOR CORRECTLY IDENTIFYING MATCHES, YOU WILL BE PENALIZED HEAVILY FOR ANSWERING MULTIPLE QUESTIONS INCORRECTLY.</span></p>
+                <p>Your score is based on a weighted exponential calculation. <span class="bold">THE MORE INCORRECT ANSWERS YOU GIVE, THE MORE THEY HURT YOUR SCORE.</span></p>
+                <p>Pairs that do not match generate fewer points than those that are a Perfec Match or Possible Match.</p>
+                <p>Why go into all of this detail? Because we want to be very explicit about the fact that you can not get a positive score by randomly clicking. Please do not corrupt our database of votes while trying to win our little competition. Not only will bad answers get in the way of us winning (which gets you no cash) but it's fairly easy to spot this kind of behavior and remove all of the votes that came from that account.</p>
+                <div class="divider"></div>
+			     <h3>Other Questions?<a name="otherAnchor" id="otherAnchor"></a></h3>
+                <p>Hit us up on the UnRend <a href="http://twitter.com/unrend">twitter</a> or <a href="http://www.facebook.com/unrend">facebook</a> pages and we'll get back to you ASAP.</p>
+			{% endblock content %}
+         	<div class="clear"></div> 
+     </div><!--/ container_11-->
+    </div><!--/ sidebar_right-->
+{% endblock %}
