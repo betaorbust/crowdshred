@@ -16,6 +16,13 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="/static/js/template/flashobject.js"></script>
 	{% block bottomHead %}{% endblock bottomHead %}
+    <script>
+        $(document).ready(function(){
+            if($("#headlineNews").children().size()>0){
+                $("#headlineNews").slideDown('fast', function(){});
+            }
+        });
+    </script>
 </head>
 <body>
 	<div id="top_full">
@@ -45,7 +52,9 @@
                 </div><!--/ nav-->
       </div><!--/ container_12--> 
     </div><!--/ header-->
-    {% block headlineNews %}{% endblock headlineNews %}
+    <div class="headlineNews" id="headlineNews" style="display:none;">
+        {% block headlineNews %}{% endblock headlineNews %}
+    </div>
     <!-- THIS IS THE HOME PAGE STUFF!-->
     {% block structure %}{% endblock structure %}
    
