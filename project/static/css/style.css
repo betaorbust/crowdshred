@@ -1,8 +1,8 @@
 body{
-    font-size:14px;
+    font-size:16px;
 }
 p{
-    font-size:14px;
+    font-size:16px;
     line-height:1.6;
 }
 
@@ -19,6 +19,37 @@ a, a:link, a:visited, a:focus {
 	text-decoration:underline;
 	outline:none;}
 
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	color:#282828; 
+}
+
+h1 {
+	font:2.4em Arial, Helvetica, sans-serif;
+	margin-bottom:0.5em;
+}
+
+h2 {
+	font:28px Arial, Helvetica, sans-serif;
+	margin-bottom:0.7em;
+}
+
+h3	{
+	font:24px Arial, Helvetica, sans-serif;
+	margin-bottom:0.8em;
+}
+				
+h4	{
+	font:20px Arial, Helvetica, sans-serif;
+	margin-bottom:1em;
+}
+
+h5, h6	{
+	font:1.3em Arial, Helvetica, sans-serif;
+	margin-bottom:1.2em;
+}    
+    
+    
 #board{
     width:640px;
     height:480px;
@@ -43,7 +74,20 @@ div.sliderContainer {
     
     }
 
-    
+div.headlineNews{
+    width:940px;
+    margin:5px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#a0bf7c;
+    color:white;
+    padding: 4px 5px 3px 5px;
+    border:solid 1px white;
+}
+.headlineNews p{
+    margin:5px;
+}
+
 .logo {
 	padding:26px 5px 15px 5px;
 	float:left;
@@ -194,4 +238,13 @@ ul.sf-menu > li > a  {
 	padding:0 9px;
 	font-size:12px;
     text-decoration:none;
+} 
+
+h1.title {
+	font-family: 'RochesterRegular';
+	color:#000;
+	margin:0 0 8px 0;
+	font-size:70px;
+    text-align:center;
+	/*text-transform:lowercase;*/
 } 

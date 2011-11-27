@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block structure %}
+   <div id="sidebar_right" class="middle">
+      <div class="container_11">
+			{% block content %}
+			    <h1 class="title">Winnings</h1>
+			    <div class="divider"></div>
+                <h3>What? Did you say I could win money while helping fund an awesome charity? How does that work?</h3>
+			    <p>Well, first off, even if you only match up a single piece, your name goes on the donor list to Child's play and that's pretty neat.</p>
+                <p>Neat not what you're here for? Ok, we'll toss in some cold cash to sweeten the deal. Here's how that will break down:</p>
+                <div class="columns" id="columnsContainer1" >
+                    <div class="column">
+                        <h4>The top five contributing teams:</h4>
+                        <ul class="ordered-type1">
+                            <li>1st: $1,000.00 and $2,000.00 donated in their name</li>
+                            <li>2nd: $900.00 and $1,800.00 donated in their name</li>
+                            <li>3rd: $800.00 and $1,600.00 donated in their name</li>
+                            <li>4th: $700.00 and $1,400.00 donated in their name</li>
+                            <li>5th: $600.00 and $1,200.00 donated in their name</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>The top five contributing people</h4>
+                        <ul class="ordered-type1">
+                            <li>1st: $1,000.00 and $2,000.00 donated in their name</li>
+                            <li>2nd: $800.00 and $1,600.00 donated in their name</li>
+                            <li>3rd: $600.00 and $1,200.00 donated in their name</li>
+                            <li>4th: $400.00 and $800.00 donated in their name</li>
+                            <li>5th: $200.00 and $400.00 donated in their name</li>
+                        </ul>
+                    </div>
+                </div>
+			    <div class="divider_space"></div>
+                <h3>Wait, why aren't you just giving all the money to Child's Play or another deserving organization?</h3>
+                <p>Originally this was our intent, and we would greatly encourage the winners to do this with their victory cash, but we also want to add a bit of a "some for me, some for you" incentive to the whole process to get people excited about this project.</p>
+                <div class="divider_space"></div>
+                <h3>Do the top contributors get the money even if the unrend group does not win the DARPA shredder competition?</h3>
+                <p>What do we look like, DARPA? ;)</p>
+                <p>Sadly no, the earnings listed above are all speculative on the fact that the unrend team actually wins the full competition purse from DARPA. Should, for some reason, the team only win some portion of the purse, the disbursed amounts will be scaled according to the portion of the full purse we receive.</p>
+</p>
+			{% endblock content %}
+         	<div class="clear"></div> 
+     </div><!--/ container_11-->
+    </div><!--/ sidebar_right-->
+{% endblock %}

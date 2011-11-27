@@ -15,6 +15,7 @@ urlpatterns = patterns('',
     url(r'^game/', TemplateView.as_view(template_name='game.html'), name='game'),
     url(r'^about/', TemplateView.as_view(template_name='about.html'), name='about'),
     url(r'^faq/', TemplateView.as_view(template_name='faq.html'), name='faq'),
+    url(r'^winnings/', TemplateView.as_view(template_name='winnings.html'), name='winnings'),
 )
 
 # Static URLs
