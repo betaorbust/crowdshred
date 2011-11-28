@@ -1,7 +1,10 @@
 activate
+activate.bat
 env/
 *.db
 *.swp
 *.pyc
 *~
 local_settings.py
+puzzle1/*
+!.gitignore

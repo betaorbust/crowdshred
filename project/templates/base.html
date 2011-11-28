@@ -28,7 +28,11 @@
 	<div id="top_full">
 		<div class="container_12">
 			<div class="social_top">
-        		Follow us on <a class="hsample_01" href="http://twitter.com/#!/unrend">Twitter</a> and
+        		{% if user.is_authenticated %}
+                    Hi, {{ user.username }}. Click <a href="/auth/logout/">here</a> to log out.
+                {% else %}
+                    Please <a href="/login/">log in</a> to help us win!
+                {% endif %}
                 <a class="hsample_01" href="https://www.facebook.com/unrend">Facebook</a>
         	</div><!--/ social_top-->
     	</div><!--/ container_12-->
