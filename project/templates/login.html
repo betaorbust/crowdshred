@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block structure %}
+   <div id="sidebar_right" class="middle">
+      <div class="container_11">
+			{% block content %}
+			    <h1 class="title">Log in to our system</h1>
+			    <div class="divider"></div>
+                <div class="columns" id="columnsContainer1" >
+                    <div class="column text-center">
+                        <h4>Via Twitter:</h4>
+                        <a href="{% url auth_twitter %}"><img src="{{STATIC_URL}}images/twitter.png" /></a>
+                    </div>
+                    <div class="column text-center">
+                        <h4>Via Facebook:</h4>
+                        <a href="{% url auth_facebook %}"><img src="{{STATIC_URL}}images/facebook.png" /></a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="divider"></div>
+                <h3>Why do I have to log on with facebook or twitter?</h3>
+                <p>Honestly, it's because we didn't have the time to bring in a full-blown user system. It's on the list of to-do's but it fell just behind "Get things up and running"</p>
+                <p>On a related note: <span class="bold">WE WILL NEVER POST ANYTHING TO YOUR ACCOUNTS AND WE DON'T WANT ANY OF YOUR DATA. AT ALL. EVER. THAT'S JUST SO NOT LIKE US.</span> We'd love a shoutout, and if you choose to do it, we will be forever grateful, but we're not going to help ourselves to your data or post things pretending to be you. Seriously not cool.</p>
+			{% endblock content %}
+         	
+     </div><!--/ container_11-->
+    </div><!--/ sidebar_right-->
+{% endblock %}
