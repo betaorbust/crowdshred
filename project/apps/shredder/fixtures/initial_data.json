@@ -1972,7 +1972,9 @@
             "pair": 2,
             "state": 1,
             "user": 1,
-            "created": "2011-11-20 17:36:05"
+            "created": "2011-11-20 17:36:05",
+            "clientinfo": "test client info"
+            
         }
     },
     {
@@ -1982,7 +1984,8 @@
             "pair": 2,
             "state": 1,
             "user": 1,
-            "created": "2011-11-20 17:36:52"
+            "created": "2011-11-20 17:36:52",
+            "clientinfo": "test client info"
         }
     },
     {
@@ -1992,7 +1995,8 @@
             "pair": 2,
             "state": 2,
             "user": 1,
-            "created": "2011-11-20 17:37:05"
+            "created": "2011-11-20 17:37:05",
+            "clientinfo": "test client info"
         }
     },
     {
@@ -2002,7 +2006,8 @@
             "pair": 2,
             "state": 3,
             "user": 1,
-            "created": "2011-11-20 17:37:16"
+            "created": "2011-11-20 17:37:16",
+            "clientinfo": "test client info"
         }
     },
     {
@@ -2012,7 +2017,8 @@
             "pair": 2,
             "state": 4,
             "user": 1,
-            "created": "2011-11-20 17:37:24"
+            "created": "2011-11-20 17:37:24",
+            "clientinfo": "test client info"
         }
     }
 ]

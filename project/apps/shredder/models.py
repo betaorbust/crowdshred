@@ -89,6 +89,9 @@ class Vote(models.Model):
     dy = models.FloatField(blank=True, null=True)
     rot0 = models.FloatField(blank=True, null=True)
     rot1 = models.FloatField(blank=True, null=True)
+    
+    clientinfo = models.CharField(max_length=255)
+    
 
     def __unicode__(self):
         return '%s %s' % (self.user, self.pair)
@@ -105,3 +108,37 @@ class Vote(models.Model):
         elif self.state == 4:
             self.pair.votes_broken = F('votes_broken') + 1
         self.pair.save()
+
+
+class OperationalPair(models.Model):
+    """
+    All the pair information that the API would need to pull from in a flat (no relationship) table.
+    """
+    
+    piece1ID = models.PositiveIntegerField( help_text="The id of piece 1.")
+    piece2ID = models.PositiveIntegerField( help_text="The id of piece 2.")
+    piece1Location = models.CharField(max_length=255, help_text="The location to load piece1 from. Url perhaps?")
+    piece2Location = models.CharField(max_length=255, help_text="The location to load piece2 from. Url perhaps?")
+    pairID = models.PositiveIntegerField( help_text="The id of the pair.")
+    pairHash = models.CharField(max_length=255, help_text="The pair hash for security reasons.")
+    
+    def __unicode__(self):
+        return 'Operational Pair: %s with piece %s and %s' % (self.pairID, self.piece1ID, slef.piece2ID)
+    
+
+class MasterPair(models.Model):
+    """
+    THIS IS FOR FUTURE USE ONLY!
+    All the pair information to be ever voted on in a flat (no relationship) table. This sucker is HUGE and will feed the OperationalPair table via cron job or other automated means.
+    """
+    
+    piece1ID = models.PositiveIntegerField( help_text="The id of piece 1.")
+    piece2ID = models.PositiveIntegerField( help_text="The id of piece 2.")
+    piece1Location = models.CharField(max_length=255, help_text="The location to load piece1 from. Url perhaps?")
+    piece2Location = models.CharField(max_length=255, help_text="The location to load piece2 from. Url perhaps?")
+    pairID = models.PositiveIntegerField( help_text="The id of the pair.")
+    pairHash = models.CharField(max_length=255, help_text="The pair hash for security reasons.")
+    
+    def __unicode__(self):
+        return 'Master Pair: %s with piece %s and %s' % (self.pairID, self.piece1ID, slef.piece2ID)
+    

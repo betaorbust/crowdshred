@@ -76,7 +76,7 @@ function loadNewPieces(){
 }
 
 // submit a vote via AJAX
-function submitVote(hash, vote, delx, dely, r0, r1){
+function submitVote(hash, vote, delx, dely, r0, r1, clientInfo){
     // oh look! I did this already! Go me!
     var voteParams = {
         hash_id:hash,
@@ -84,7 +84,8 @@ function submitVote(hash, vote, delx, dely, r0, r1){
         dx:delx,
         dy:dely,
         rot0:r0,
-        rot1:r1
+        rot1:r1,
+        clientinfo:clientInfo
     };
     
     $.getJSON(jsonVoteLocation,voteParams, function(data){

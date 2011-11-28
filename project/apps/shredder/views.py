@@ -57,7 +57,8 @@ def vote_api(request):
                 pair = Pair.objects.get(hash_id=request.GET['hash_id'])
             except ObjectDoesNotExist:
                 return json_response_error('Object does not exist', code=404)
-            vote.user = request.user
+            vote.user = request.session.get('user',None)
+            # vote.user = request.user
             vote.pair = pair
             vote.save()
 
