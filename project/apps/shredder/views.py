@@ -32,7 +32,6 @@ def json_response_error(message, code=404):
 
 
 def pair_api(request):
-
     pair = get_random_item(Pair)
     images = []
     for image in [pair.piece1, pair.piece2]:
