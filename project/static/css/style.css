@@ -248,3 +248,15 @@ h1.title {
     text-align:center;
 	/*text-transform:lowercase;*/
 } 
+a img.hoverIcon{
+    background-color:none;
+    padding:5px;
+    border:none;
+}
+a img.hoverIcon:hover{
+    background-color:#a0bf7c;
+    -moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	border:0px solid #d7d7d7;
+}

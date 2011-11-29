@@ -9,12 +9,14 @@
                 <div class="columns" id="columnsContainer1" >
                     <div class="column text-center">
                         <h4>Via Twitter:</h4>
-                        <a href="{% url auth_twitter %}"><img src="{{STATIC_URL}}images/twitter.png" /></a>
+                        <a href="{% url auth_twitter %}?next={{next}}"><img src="{{STATIC_URL}}images/twitter.png" class="hoverIcon" /></a>
                     </div>
+                    <!--
                     <div class="column text-center">
                         <h4>Via Facebook:</h4>
-                        <a href="{% url auth_facebook %}"><img src="{{STATIC_URL}}images/facebook.png" /></a>
-                    </div>
+                        <a href="{% url auth_facebook %}?next={{next}}"><img src="{{STATIC_URL}}images/facebook.png" class="hoverIcon" /></a>
+                    </div> 
+                    -->
                 </div>
                 <div class="clear"></div>
                 <div class="divider"></div>

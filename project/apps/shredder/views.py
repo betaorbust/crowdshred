@@ -76,7 +76,14 @@ def vote_api(request):
     return json_response_error('Forbidden', code=403)
 
 def game(request):
-    #user = request.session.get('user',None)
-    #if not user:
-    #    return HttpResponseRedirect('/login')
+    user = request.session.get('user',None)
+    if not user:
+        return HttpResponseRedirect('/login/?next=/game/')
     return render_to_response("shredder/game.html", {}, context_instance=RequestContext(request))
+    
+def login(request):
+    if 'next' in request.GET:
+        redirect_url = request.GET['next']
+    else:
+        redirect_url = "/"
+    return render_to_response("shredder/login.html",{'next':redirect_url},context_instance=RequestContext(request))
