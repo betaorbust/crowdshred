@@ -14,17 +14,23 @@
     //$('body').prepend('<p style="text-align:center;">You\'re using ' + BrowserDetect.browser + ' ' + BrowserDetect.version + ' on ' + BrowserDetect.OS + '!</p>');
     clientInfo = BrowserDetect.browser + '----' + BrowserDetect.version + '----' + BrowserDetect.OS;
     
+	if(BrowserDetect.browser+BrowserDetect.version=="Explorer8"){
+		alert("Hanging head in nerd shame\nThere is a known bug in Internet Explorer 8 that prevents us from loading and calculating image position. We're working on it, but until we have a fix we'll have to rely on other browsers. IE 9 works just fine and is much more secure if you're in an upgrade mood!");
+	}
+	
     // Variables yup, I know they're global... that's just kind of how it's going to have to be for now.
     jsonRequestParams = {
         imageRequest: 2
     };
     jsonLocation = "{% url pair_api %}";
     jsonVoteLocation = "{% url vote_api %}";
-
+	
+	gameDisabled = true;
+	
     startLoc = [];
     endLoc = [];
     pieces = {};
-	consoleDebugging = true;
+	consoleDebugging = false;
 	id_hash = '';
     
     // Load up a board
@@ -32,6 +38,9 @@
     
     // Add the voting ability for each of the buttons
     $('.voteButton').click(function(){
+		if (gameDisabled){
+			return false;
+		}
 		// get the info from the pieces
 		delx = pieces['piece1'].locx-pieces['piece0'].locx;
 		dely = pieces['piece1'].locy-pieces['piece0'].locy;

@@ -1,7 +1,11 @@
 function loadNewPieces(){
 // Ask the server for a new set of pieces
     // Remove board content
-    $('#board').empty();    
+    $('#board').empty();
+	$.ajaxSetup ({
+		// Disable caching of AJAX responses
+		cache: false
+	});    
 	$.getJSON(jsonLocation,jsonRequestParams,
         function(data){ 	
             // blank everything
@@ -24,7 +28,7 @@ function loadNewPieces(){
                     height:0
                 };
 
-                var img = $("<img/>").attr({"src":image.src, "class":"imagepiece","id":pname})
+                var img = $("<img/>").attr({"src":image.src + "?" + new Date().getTime(), "class":"imagepiece","id":pname})
                     .load(function(){
                         if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) {
                              alert('broken image!');
@@ -65,7 +69,8 @@ function loadNewPieces(){
                             pieces[pname].locy=pos.top+0.5*pieces[pname].height;
 							if(consoleDebugging){
 								console.log('Starting position for '+pname+' is x: '+pieces[pname].locx+', y:'+pieces[pname].locy);
-                            }		
+                            }
+							gameDisabled = false;
                         } 
                 });
             });
@@ -77,8 +82,9 @@ function loadNewPieces(){
 
 // submit a vote via AJAX
 function submitVote(hash, vote, delx, dely, r0, r1, clientInfo){
-    // oh look! I did this already! Go me!
-    var voteParams = {
+    gameDisabled = false;
+	
+	var voteParams = {
         hash_id:hash,
         state:vote,
         dx:delx,
@@ -89,15 +95,14 @@ function submitVote(hash, vote, delx, dely, r0, r1, clientInfo){
     };
     
     $.getJSON(jsonVoteLocation,voteParams, function(data){
-        if(data.message = "Accepted"){
+		if(data.message = "Accepted"){
             console.log('Successfully submitted!');
             //alert('Successfully submitted!');
         }else{
-            console.log('Successfully submitted!');
+            console.log('Submission failed!');
             //alert('Vote failed!');
         }
     });
-    // TODO: add deltas and rotations to vote
     // TODO: add POST instead of GET
 }
 
