@@ -3,18 +3,17 @@ import simplejson as json
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 from django.http import HttpResponse, HttpResponseRedirect
-
+from django.shortcuts import render_to_response
+from django.template import RequestContext
 
 from project.apps.shredder.forms import VoteForm
 from project.apps.shredder.models import Pair
 from project.apps.shredder.utils import get_random_item
 
+
 from social_auth.models import SocialUser, IdentityProvider
 
 def json_response(content, code=200):
-    user = request.session.get('user',None)
-    if not user:
-        json_response_error('User is not authenticated! Log in to play!', code=401)
     resp = HttpResponse(json.dumps(content), mimetype='application/json')
     resp.code = code
     return resp
@@ -57,7 +56,7 @@ def pair_api(request):
 def vote_api(request):
     user = request.session.get('user',None)
     if not user:
-        json_response_error('User is not authenticated! Log in to play!', code=401)
+        return json_response_error('User is not authenticated! Log in to play!', code=401)
     if request.GET:
         form = VoteForm(request.GET)
         if form.is_valid():
@@ -77,7 +76,7 @@ def vote_api(request):
     return json_response_error('Forbidden', code=403)
 
 def game(request):
-    user = request.session.get('user',None)
-    if not user:
-        return HttpResponseRedirect('/login')
-    return render_to_response("shredder/game.html")
+    #user = request.session.get('user',None)
+    #if not user:
+    #    return HttpResponseRedirect('/login')
+    return render_to_response("shredder/game.html", {}, context_instance=RequestContext(request))
